@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Poppins&family=Ubuntu:wght@300&display=swap');
+
+body {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: 'Poppins', 'Arial', sans-serif;
+}
+
+.header-box {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    background-color: lightskyblue;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 5px 5px 5px 5px lightslategray;
+}
+
+img {
+    grid-column: 1 / 2;
+    max-width: 200px;
+    align-self: center;
+    padding: 10px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+h1 {
+    grid-column: 2 / 3;
+    color: dodgerblue;
+    text-align: center;
+    align-self: center;
+}
+
+h2 {
+    color: dodgerblue;
+    padding-left: 10px;
+    font-weight: bold;
+    border-bottom: 3px solid darkblue;
+}
+
+footer {
+    background-color: lightskyblue;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 5px 5px 5px 5px lightslategray;
+}
+
+p {
+    color: dodgerblue;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+.updated {
+    font-style: italic;
+    color: lightseagreen;
+    font-size: smaller;
+}
+
+@media screen and (max-width: 600px) {
+    .header-box {
+      display: block;
+    }
+  }
