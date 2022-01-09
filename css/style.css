@@ -24,7 +24,7 @@ img {
 
 h1 {
     grid-column: 2 / 3;
-    color: dodgerblue;
+    color: darkmagenta;
     text-align: center;
     align-self: center;
 }
@@ -33,7 +33,7 @@ h2 {
     color: dodgerblue;
     padding-left: 10px;
     font-weight: bold;
-    border-bottom: 3px solid darkblue;
+    border-bottom: 3px solid darkmagenta;
 }
 
 footer {
@@ -43,7 +43,7 @@ footer {
 }
 
 p {
-    color: dodgerblue;
+    color: darkmagenta;
     font-size: 16px;
     text-align: center;
     margin-bottom: -10px;
@@ -51,7 +51,7 @@ p {
 
 .updated {
     font-style: italic;
-    color: lightseagreen;
+    color: darkolivegreen;
     font-size: smaller;
 }
 
