@@ -49,12 +49,14 @@ p {
 
 .updated {
     font-style: italic;
-    color: darkolivegreen;
+    color: darkgreen;
     font-size: smaller;
 }
 
-@media screen and (max-width: 600px) {
-    .header-box {
-      display: block;
-    }
-  }
+@media screen and (min-width: 600px) {
+    
+}
+
+@media screen and (min-width: 900px) {
+    
+}
