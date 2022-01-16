@@ -1,0 +1,13 @@
+@media screen and (min-width: 60em) {
+    .main-box {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .repetition {
+        margin-right: 10px;
+    }
+
+    .contrast {
+        grid-column: 3 / 4;
+    }
+}

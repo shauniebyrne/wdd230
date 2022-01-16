@@ -1,0 +1,19 @@
+@media  screen and (min-width: 32.53em) {
+    .main-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .alignment {
+        grid-column: 1 / 2;
+        margin-right: 10px;
+    }
+
+    .repetition {
+        grid-column: 2 / 3;
+    }
+
+    .contrast {
+        grid-column: 1 / 3;
+    } 
+}

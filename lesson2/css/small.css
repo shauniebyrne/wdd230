@@ -1,0 +1,38 @@
+h1, h2, h3 {
+    font-family: 'Ubuntu', 'Arial', sans-serif;
+    padding: 5px;
+    margin: 0;
+}
+
+p {
+    font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
+    padding: 5px;
+}
+
+div p {
+    color: #512D38;
+}
+
+header, footer, h3 {
+    background-color: #512D38;
+    color: #EDF0DA;
+}
+
+header, footer {
+    text-align: center;
+}
+
+div {
+    background-color: #EDF0DA;
+    border: solid 5px #512D38;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 5px;
+}
+
+a {
+    padding: 5px;
+}
+
+img {
+    max-width: 100%;
+}
