@@ -1,0 +1,81 @@
+/* font-family: 'Merriweather', Georgia, serif;
+font-family: 'Roboto Slab', Garamond, serif; */
+/* Colors: Paragraph - Black Coffe #34252F, 
+Headings: Dark Slate Grey #3B5249, Background - Laurel Green #BEC5AD,
+Buttons and Extras - Russian Green #519872*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto Slab', Garamond, serif;
+    color: #34252F;
+}
+
+section, footer {
+    background-color: #BEC5AD;
+    color: #3B5249;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+section div {
+    flex: 1 1 auto;
+}
+
+section div img {
+    width: 150px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Merriweather', Georgia, serif;
+    color: #3B5249; 
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+nav {
+	background-color: #519872;
+	text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav ul li a {
+	display: block;
+	color: #3B5249;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 1rem;
+}
