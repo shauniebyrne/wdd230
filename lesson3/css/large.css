@@ -1,0 +1,5 @@
+@media screen and (min-width:60em) {
+    .medium-large-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
