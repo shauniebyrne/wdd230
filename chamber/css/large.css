@@ -1,0 +1,84 @@
+@media screen and (min-width: 60em) {
+    .navigation li {
+        display: block;
+    }
+
+    header nav ul.navigation {
+        display: flex;
+    }
+
+    header nav ul li {
+        flex: 1 1 auto;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .social {
+        order: 1;
+    }
+    
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    .date {
+        font-size: larger;
+    }
+
+    .logo-img {
+        width: 5rem;
+    }
+
+    .social img {
+        width: 40px;
+        height: 40px;
+    }
+
+    main {
+        grid-template-columns: repeat(7, 1fr);
+    }
+
+    .event {
+        grid-area: 1 / 1 / 2 / 3;
+    }
+
+    .weather {
+        grid-area: 2 / 1 / 3 / 3;
+    }
+
+    .join {
+        grid-area: 3 / 1 / 4 / 3;
+    }
+
+    .hero {
+        grid-area: 1 / 3 / 3 / 6;
+        height: auto;
+    }
+
+    .news {
+        grid-area: 3 / 3 / 4 / 6;
+    }
+
+    .spotlight-holder {
+        grid-area: 1 / 6 / 4 / 8;
+        flex-direction: column;
+    }
+
+    .footer-logo, .address, .the-rest {
+        font-size: x-large;
+    }
+
+    .footer-logo > img {
+        width: 7rem;
+    }
+
+    .base-footer {
+        font-size: larger;
+    }
+}

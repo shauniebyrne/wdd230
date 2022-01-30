@@ -1,0 +1,166 @@
+/* font-family: 'Merriweather', Georgia, serif;
+font-family: 'Roboto Slab', Garamond, serif; */
+
+/* Colors: Paragraph - Black Coffee #34252F, 
+Headings: Dark Slate Grey #3B5249, Background - Laurel Green #BEC5AD,
+Buttons and Extras - Russian Green #519872*/ 
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto Slab', Garamond, serif;
+    color: #34252F;
+}
+
+header, footer {
+    background-color: #BEC5AD;
+    color: #3B5249;
+    margin: 0 auto;
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+h1, h2 {
+    font-family: 'Merriweather', Georgia, serif;
+    color: #3B5249; 
+    background-color: #BEC5AD;
+}
+
+h1 {
+    font-size: 1rem;
+    margin: 0;
+}
+
+h2 {
+    font-size: .6rem;
+}
+
+nav {
+	background-color: #519872;
+	text-align: center;
+    font-weight: bold;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav ul li a {
+	display: block;
+	color: #34252F;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+	font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul li a:visited {
+    color: #BEC5AD;
+    background-color: #34252F;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #519872;
+    background-color: #3B5249;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
+}
+
+.subheader {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.logo-img {
+    width: 3rem;
+    padding-right: 2px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.social a {
+    padding: 2px;
+}
+
+.date {
+    color: #34252F;
+    text-align: center;
+    background-color: rgba(0,0,0,0.3);
+    margin: 5px;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+.content {
+    border: 1px solid #34252F;
+    background-color: rgba(0,0,0,0.2);
+    padding: 0.5rem;
+    margin: 0.5rem;
+    width: auto;
+    height: 10rem;
+}
+
+.spotlight-holder {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.spotlight {
+    border: 1px solid #34252F;
+    padding: 0.5rem;
+    height: 10rem;
+}
+
+.top-footer, .base-footer {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.top-footer {
+    border-bottom: 1px solid #34252F;
+    padding: 1rem;
+}
+
+.top-footer > div.the-rest {
+    padding: 0.5rem;
+}
+
+.the-rest > p {
+    padding: 0.5rem;
+}
+

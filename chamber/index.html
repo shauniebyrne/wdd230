@@ -11,20 +11,95 @@
         <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
-        <script></script>
+        <script defer src="js/script.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">  
     </head>
     <body>
         <header>
-
-        </header>
+            <section class="subheader">
+                <section class="header-logo">
+                    <img class="logo-img" src="images/logo_small.png" alt="CornChamber Logo" width="100">
+                    <div>
+                        <h1>CornChamber</h1>
+                        <h2>Taber Chamber of Commerce</h2>
+                    </div> 
+                </section>
+                <div class="social">
+                    <a target="blank" href="https://www.facebook.com/">
+                        <img src="images/facebooklogo.png" alt="Facebook Icon" width="30">
+                    </a>
+                    <a target="blank" href="https://www.youtube.com/">
+                        <img src="images/youtubelogo.png" alt="YouTube Icon" width="33">
+                    </a>
+                </div>
+                <nav>
+                    <ul class="navigation">
+                        <li><a class="hamburger" href="#">&#9776;</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Discover</a></li>
+                        <li><a href="#">Directory</a></li>
+                        <li><a href="#">Join</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <div class="date">
+                <date></date>
+            </div>           
+        </header>      
         <main>
-
+            <div class="content hero">
+                <p>Hero with site name and call to action</p>
+            </div>
+            <div class="content event">
+                <p>Event</p>
+            </div>
+            <div class="content weather">
+                <p>Weather</p>
+            </div>
+            <div class="content news">
+                <p>News Release</p>
+            </div>
+            <div class="content join">
+                <p>Join</p>
+            </div>
+            <section class="content spotlight-holder">
+                <div class="spotlight">
+                    <p>Spotlight 1</p>
+                </div>
+                <div class="spotlight">
+                    <p>Spotlight 2</p>
+                </div>
+                <div class="spotlight">
+                    <p>Spotlight 3</p>
+                </div>
+            </section>
         </main>
         <footer>
-            
+            <section class="top-footer">
+                <div class="footer-logo">
+                    <img src="images/logo_small.png" alt="CornChamber Logo" width="80">
+                </div>
+                <div class="address">
+                    <p><strong>CornChamber</strong></p>
+                    <p>A - 4900 50 St.</p>
+                    <p>Taber, Alberta, Canada  T1G 1T1</p>
+                </div>
+                <div class="the-rest">
+                    <p>cornchamber.com</p>
+                    <p>403-223-5500</p>
+                    <div class="map-link">
+                        <a target="blank" href="#">
+                            <img src="#" alt="Google Map Image">
+                        </a>
+                    </div> 
+                </div>               
+            </section>
+            <section class="base-footer">
+                <p>&copy; <span id="current-year"></span> CornChamber | <strong>Shauntal Byrne</strong> | WDD 230 Project | Last Modification: <span id="updated-date"></span></p>
+            </section>            
         </footer>
     </body>
 </html>
