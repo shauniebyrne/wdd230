@@ -51,3 +51,7 @@ p {
     color: #232E21;
     font-size: smaller;
 }
+
+main ul li a {
+    text-decoration: none;
+}
