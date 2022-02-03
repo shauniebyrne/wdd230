@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List Example</title>
+    <style>
+      li {
+        margin-bottom: 10px;
+      }
+
+      li button {
+        font-size: 8px;
+        margin-left: 20px;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+
+    <h1>My shopping list</h1>
+
+    <div>
+      <label for="item">Enter a new item:</label>
+      <input type="text" name="item" id="item">
+      <button>Add item</button>
+    </div>
+
+    <ul>
+
+    </ul>
+
+    <script>
+        // create three variables to hold references
+        const ulList = document.querySelector('ul');
+        const docInput = document.querySelector('input');
+        const docButton = document.querySelector('button');
+        
+        // Create a function that will run in response to the button being clicked
+        docButton.onclick = function() {
+            //store current value of input element in a variable
+            let inputValue = docInput.value;
+            // empty input element by setting its value as an empty string
+            docInput.value = '';
+            //create three new elements (li, span, button)
+            const liList = document.createElement('li');
+            const docSpan = document.createElement('span');
+            const listButton = document.createElement('button');
+            //append the span and button as chilcren of the list item
+            liList.appendChild(docSpan);
+            liList.appendChild(listButton);
+            //set text content of span to the input element value you saved earlier,
+            //and the text content of the button to 'Delete'
+            docSpan.textContent = inputValue;
+            listButton.textContent = 'Delete';
+            //Append the list item as a child of the list
+            ulList.appendChild(liList);
+            //attach an event handler to the delete button so that it will delete entire
+            //list when clicked
+            listButton.onclick = function(e) {
+                ulList.removeChild(liList);
+            }
+            //use focus() method to focus the input element ready for entering the next list item
+            docInput.focus();
+        }
+    </script>
+  </body>
+</html>
