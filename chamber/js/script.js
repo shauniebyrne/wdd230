@@ -17,3 +17,11 @@ const hamButton = document.querySelector(".hamburger");
 hamButton.addEventListener('click', () => {
     nav.classList.toggle('responsive')
 }, false);
+
+// Banner display on Monday and Tuesday
+let dayOfWeek = d.getDay();
+let messageForDay;
+if (dayOfWeek === 1 || dayOfWeek === 2) {
+    messageForDay = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7 p.m.";
+    document.querySelector("#banner").textContent = messageForDay;
+}

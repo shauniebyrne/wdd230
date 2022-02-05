@@ -42,6 +42,19 @@ h2 {
     font-size: .6rem;
 }
 
+h3, h4 {
+    font-family: 'Merriweather', Georgia, serif;
+    color: #3B5249;  
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
 nav {
 	background-color: #519872;
 	text-align: center;
@@ -74,6 +87,10 @@ nav ul li a:visited {
 nav ul li a:hover {
     color: #519872;
     background-color: #3B5249;
+}
+
+nav ul li a:active {
+    color: white;
 }
 
 .navigation li:first-child {
@@ -112,8 +129,8 @@ nav ul li a:hover {
     padding: 5px;
 }
 
-.social a {
-    padding: 2px;
+.social > a {
+    padding: 5px;
 }
 
 .date {
@@ -127,11 +144,48 @@ nav ul li a:hover {
 
 .content {
     border: 1px solid #34252F;
-    background-color: rgba(0,0,0,0.2);
+    background-color: #519872;
     padding: 0.5rem;
     margin: 0.5rem;
     width: auto;
-    height: 10rem;
+    height: auto;
+    text-align: center;
+    box-shadow: 5px 5px 8px black;
+}
+
+.content > p {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.hero {
+    position: relative;
+}
+
+#hero-picture {
+    width: 100%;
+    height: 100%;
+}
+
+.herosection {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.herosection > h3, .herosection > h4 {
+    color: white;
+}
+
+#join-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #519872;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 1rem;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .spotlight-holder {
@@ -143,8 +197,26 @@ nav ul li a:hover {
 .spotlight {
     border: 1px solid #34252F;
     padding: 0.5rem;
-    height: 10rem;
+    height: auto;
+    margin: 5px;
 }
+
+.spotlight > h4, .weather h3:nth-child(3) {
+    border-bottom: 2px solid;
+    padding: 5px;
+}
+
+.weather h3:nth-child(3) {
+    text-align: right;
+}
+
+.weather-flow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
 
 .top-footer, .base-footer {
     text-align: center;
@@ -164,3 +236,17 @@ nav ul li a:hover {
     padding: 0.5rem;
 }
 
+#map-image {
+    width: 100%;
+}
+
+#banner {
+    width: 100%;
+    padding: 5px;
+    color: #519872;
+    background-color: #BEC5AD;
+}
+
+.join {
+    display: none;
+}
