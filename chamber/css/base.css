@@ -44,7 +44,7 @@ h2 {
 
 h3, h4 {
     font-family: 'Merriweather', Georgia, serif;
-    color: #3B5249;  
+    color: #34252F;  
 }
 
 h3 {
@@ -156,6 +156,7 @@ nav ul li a:active {
 .content > p {
     font-size: 20px;
     padding: 5px;
+    color: #BEC5AD;
 }
 
 .hero {
@@ -201,6 +202,10 @@ nav ul li a:active {
     margin: 5px;
 }
 
+.spotlight > p {
+    color: #BEC5AD;
+}
+
 .spotlight > h4, .weather h3:nth-child(3) {
     border-bottom: 2px solid;
     padding: 5px;
@@ -215,6 +220,10 @@ nav ul li a:active {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+.event > p {
+    padding-top: 2rem;
 }
 
 
@@ -237,7 +246,8 @@ nav ul li a:active {
 }
 
 #map-image {
-    width: 100%;
+    max-width: 20rem;
+    align-items: center;
 }
 
 #banner {

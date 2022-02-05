@@ -55,3 +55,7 @@ p {
 main ul li a {
     text-decoration: none;
 }
+
+.changes {
+    padding-left: 88px;
+}
