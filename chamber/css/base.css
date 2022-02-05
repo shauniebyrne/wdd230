@@ -156,7 +156,7 @@ nav ul li a:active {
 .content > p {
     font-size: 20px;
     padding: 5px;
-    color: #BEC5AD;
+    color: black;
 }
 
 .hero {
@@ -203,7 +203,7 @@ nav ul li a:active {
 }
 
 .spotlight > p {
-    color: #BEC5AD;
+    color: black;
 }
 
 .spotlight > h4, .weather h3:nth-child(3) {
@@ -247,14 +247,13 @@ nav ul li a:active {
 
 #map-image {
     max-width: 20rem;
-    align-items: center;
 }
 
 #banner {
     width: 100%;
     padding: 5px;
     color: #519872;
-    background-color: #BEC5AD;
+    background-color: black;
 }
 
 .join {
