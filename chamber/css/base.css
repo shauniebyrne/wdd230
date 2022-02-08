@@ -254,6 +254,7 @@ nav ul li a:active {
     padding: 5px;
     color: #519872;
     background-color: black;
+    text-align: center;
 }
 
 .join {
