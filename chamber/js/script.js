@@ -6,7 +6,7 @@ document.getElementById("current-year").textContent = year;
 document.getElementById("updated-date").textContent = document.lastModified;
 
 // Current date in header
-const dateNow = document.querySelector("date");
+const dateNow = document.querySelector(".date");
 const fullDate = new Intl.DateTimeFormat("en-US", {dateStyle: "full"}).format(d);
 dateNow.innerHTML = `<em>${fullDate}</em>`; 
 

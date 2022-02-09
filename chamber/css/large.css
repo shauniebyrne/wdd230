@@ -1,4 +1,4 @@
-@media screen and (min-width: 60em) {
+@media screen and (min-width: 71em) {
     .navigation li {
         display: block;
     }
@@ -15,9 +15,24 @@
         display: none;
     }
 
+    .subheader {
+        position: unset;
+    }
+
+    nav {
+        position: unset;
+    }
+
     .social {
         order: 1;
+        margin-right: 10px;
     }
+
+    .social img {
+        width: 3rem;
+        height: 3rem;
+    }
+
     
     h1 {
         font-size: 3rem;
@@ -33,11 +48,6 @@
 
     .logo-img {
         width: 5rem;
-    }
-
-    .social img {
-        width: 40px;
-        height: 40px;
     }
 
     main {
