@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
         <script defer src="js/script.js"></script>
+        <script defer src="js/windchill.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">  
@@ -21,7 +22,7 @@
         <header>
             <section class="subheader">
                 <section class="header-logo">
-                    <img class="logo-img" src="images/logo_small.png" alt="CornChamber Logo" width="100">
+                    <img class="logo-img" src="images/logo_small.webp" alt="CornChamber Logo" width="100">
                     <div>
                         <h1>CornChamber</h1>
                         <h2>Taber Chamber of Commerce</h2>
@@ -51,7 +52,12 @@
         </header>      
         <main>          
             <article class="content hero">
-                <img id="hero-picture" src="images/heroimage.png" alt="Cornfield At Sunset with Windmills">
+                <picture>
+                    <source media="(max-width: 200px)" srcset="images/small200.jpg">
+                    <source media="(max-width: 500px)" srcset="images/medium500.jpg">
+                    <source media="(max-width: 800px)" srcset="images/large800.jpg">
+                    <img id="hero-picture" src="images/original1100.jpg" alt="Group of people around a table">
+                </picture>
                 <section class="herosection">
                     <h3>Welcome to Taber</h3>
                     <h4>Corn Capital of the West</h4>
@@ -68,12 +74,12 @@
                 <h3>Weather</h3>
                 <section class="weather-flow">
                     <img src="images/weather.png" alt="Sun Covered By Clouds">
-                    <h3>38 &#176; F</h3>
+                    <h3><span id="temp">38</span>&#176; F</h3>
                 </section>
                 <h3>Partly Cloudy</h3>            
-                <h4>Precipitation: <span>15%</span></h4>
-                <h4>Humidity: <span>54%</span></h4>
-                <h4>Wind: <span>23 mph</span></h4>
+                <h4>Precipitation: 15%</h4>
+                <h4>Wind: <span id="speed">23</span>mph</h4>
+                <h4>Wind Chill: <span id="wind-chill"></span></h4>
             </article>
             <article class="content news">
                 <h3>News Release</h3>
@@ -113,9 +119,9 @@
         </main>
         <footer>
             <div class="top-footer">
-                <div class="footer-logo">
-                    <img src="images/logo_small.png" alt="CornChamber Logo" width="80">
-                </div>
+                <figure class="footer-logo">
+                    <img src="images/logo_small.webp" alt="CornChamber Logo" width="80">
+                </figure>
                 <div class="address">
                     <p><strong>CornChamber</strong></p>
                     <p>A - 4900 50 St.</p>
@@ -125,7 +131,6 @@
                     <p>cornchamber.com</p>
                     <p>403-223-5500</p>
                     <div class="map-link">
-                        <img id="map-image" src="https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=j8OQs4eyivyLTAX-84u2zw&cb_client=search.gws-prod.gps&w=408&h=240&yaw=266.2079&pitch=0&thumbfov=100" alt="Google Map Image">
                         <a target="blank" href="https://www.google.com/maps/place/4900+50+St,+Taber,+AB+T1G+1T3,+Canada/@49.784749,-112.1523427,17z/data=!3m1!4b1!4m5!3m4!1s0x536c360866787481:0x10713ae618b9141c!8m2!3d49.784749!4d-112.150154">Location Map</a>
                     </div> 
                 </div>               
