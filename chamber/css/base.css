@@ -89,6 +89,7 @@ nav ul li a:visited {
 nav ul li a:hover {
     color: #519872;
     background-color: #3B5249;
+    cursor: pointer;
 }
 
 nav ul li a:active {
