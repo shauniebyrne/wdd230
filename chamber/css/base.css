@@ -183,8 +183,14 @@ main article.hero picture {
     right: 20px;
 }
 
-.herosection > h3, .herosection > h4 {
+.herosection > h3 {
     color: black;
+}
+
+.herosection > h4 {
+    color: black;
+    font-size: 1rem;
+    text-align: right;
 }
 
 #join-button {
@@ -271,15 +277,24 @@ main article.hero picture {
 }
 
 /* Discover Page */
+
+div .effect {
+    margin: 1em auto;
+    width: 400px;
+    height: 500px;
+    padding: 0.5em;  
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
 .effect img[data-src] {
     filter: blur(0.2em);
 }
 
 .effect img {
-    margin: 1em auto;
-    width: 400px;
-    height: 500px;
-    padding: 0.5em;
     filter: blur(0);
     transition: filter 0.5s;
 }
