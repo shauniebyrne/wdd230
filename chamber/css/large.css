@@ -71,6 +71,10 @@
         height: auto;
     }
 
+    #hero-picture {
+        height: 650px;
+    }
+
     .news {
         grid-area: 3 / 3 / 4 / 6;
     }
