@@ -269,3 +269,18 @@ main article.hero picture {
 .join {
     display: none;
 }
+
+/* Discover Page */
+.effect img[data-src] {
+    filter: blur(0.2em);
+}
+
+.effect img {
+    margin: 1em auto;
+    width: 400px;
+    height: 500px;
+    padding: 0.5em;
+    filter: blur(0);
+    transition: filter 0.5s;
+}
+
