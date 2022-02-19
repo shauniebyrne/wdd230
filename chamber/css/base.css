@@ -175,6 +175,7 @@ main article.hero picture {
 
 #hero-picture {
     width: 100%;
+    opacity: 0.5;
 }
 
 .herosection {
@@ -183,13 +184,8 @@ main article.hero picture {
     right: 20px;
 }
 
-.herosection > h3 {
+.herosection > h3, .herosection > h4 {
     color: black;
-}
-
-.herosection > h4 {
-    color: black;
-    font-size: 1rem;
     text-align: right;
 }
 
@@ -197,7 +193,8 @@ main article.hero picture {
     position: absolute;
     bottom: 20px;
     right: 20px;
-    background-color: #519872;
+    background-color: #34252F;
+    color: #519872;
     font-weight: bold;
     font-size: 20px;
     padding: 1rem;
@@ -297,5 +294,10 @@ div .effect {
 .effect img {
     filter: blur(0);
     transition: filter 0.5s;
+    width: 250px;
+    height: 350px;
 }
 
+.effect h3 {
+    padding-bottom: 1rem;
+}
