@@ -1,20 +1,17 @@
 const visitsDisplay = document.querySelector('#local-storage');
-const lastVisitedDate = localStorage.getItem('last-visted');
+let lastVisitedDate = Number(window.localStorage.getItem('last-visited'));
 
-function calculation() {1000 * 60 * 60 * 24};
+const calculation = 1000 * 60 * 60 * 24;
 
 let daysBetween = Date.now() - lastVisitedDate;
 
-let numberOfDays = Number(daysBetween / calculation());
-Math.round(numberOfDays);
+let numberOfDays = daysBetween / calculation;
 
-if (numberOfDays !== 0) {
-	visitsDisplay.textContent = numberOfDays;
+if (numberOfDays == 0) {
+	visitsDisplay.textContent = "This is your first visit!";
 } else {
-	visitsDisplay.textContent = `This is your first visit!`;
+	visitsDisplay.textContent = Math.round(numberOfDays);
 }
 
-// increment the number of days.
-numberOfDays++;
 // store the new number of days
 localStorage.setItem('last-visited', Date.now());

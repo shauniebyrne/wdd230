@@ -275,16 +275,18 @@ main article.hero picture {
 
 /* Discover Page */
 
-div .effect {
-    margin: 1em auto;
-    width: 400px;
-    height: 500px;
-    padding: 0.5em;  
-}
-
 #grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+div article.effect {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .effect img[data-src] {
