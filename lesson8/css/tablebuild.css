@@ -29,8 +29,8 @@
       color: white;
   }
 
-  thead tr:first-child{
-      font-size: 4em;
+  thead tr:first-child th{
+      font-size: 2em;
   }
 
   thead tr:nth-child(2) {
