@@ -47,6 +47,7 @@ h3, h4 {
 
 h3 {
     font-size: 2rem;
+    text-align: center;
 }
 
 h4 {
@@ -279,7 +280,7 @@ main article.hero picture {
 }
 
 div article.effect {
-    width: 400px;
+    width: 350px;
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -301,3 +302,96 @@ div article.effect {
 .effect h3 {
     padding-bottom: 1rem;
 }
+
+/* Join Page */
+/* -- Form -- */
+form fieldset {
+    margin: 1rem;
+    border: 3px solid #34252F;
+    box-shadow: 5px 5px 8px black;
+    padding: 0.5rem 2%;
+    background-color: #519872;
+    max-width: 35rem;
+}
+
+form legend {
+    color: #34252F;
+    margin: 0 1rem;
+    padding: 0.5rem;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    font-weight: bold;
+}
+
+form label.top input, form textarea {
+    display: block;
+    font-size: 1rem;
+    border: 1px solid #519872;
+    padding: 0.75rem;
+    width: 90%;
+    max-width: 30rem;
+    background-color: #BEC5AD;
+}
+
+form label.bottom {
+    display: block;
+    padding: 0.75rem;
+    color: black;
+    font-weight: bold;
+}
+
+form input.submitButton {
+    border: 3px solid #34252F;
+    background-color: #519872;
+    color: black;
+    font-weight: bold;
+    border-radius: 1rem;
+    padding: 0.8rem;
+    margin: 2rem;
+    margin-left: 7rem;
+    width: 96%;
+    max-width: 15rem;
+}
+
+form label.top input:required {
+    border-left: solid 6px rgba(0,0,0,0.3);
+}
+
+form label.top input:required:valid {
+    border-left: solid 6px #BEC5AD;
+}
+
+/* -- Table -- */
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    letter-spacing: 1px;
+    margin: 0.75rem;
+    box-shadow: 5px 5px 8px black;
+}
+
+table caption {
+    font-weight: bolder;
+    font-size: 2rem;
+    color: #34252F;
+}
+
+thead {
+    font-size: 1.5rem;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 7px 2px;
+}
+
+td {
+    text-align: center;
+}
+

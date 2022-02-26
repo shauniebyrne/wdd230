@@ -105,4 +105,19 @@
         grid-column: 1 / -1;
         justify-items: center;
     }
+
+    /* Join Page */
+    form fieldset {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    form input.submitButton {
+        margin-left: 18rem;
+    }
+
+    table {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

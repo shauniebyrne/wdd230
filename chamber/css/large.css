@@ -100,4 +100,22 @@
     #grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    /* Join Page */
+    main div.joinFlex {
+        display: flex;
+        flex-direction: row;
+    }
+
+    form fieldset {
+        margin: 1rem;
+    }
+
+    form input.submitButton {
+        margin-left: 7rem;
+    }
+
+    table {
+        margin: 2rem;
+    }
 }
