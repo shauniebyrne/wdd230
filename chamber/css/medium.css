@@ -23,7 +23,7 @@
         margin-right: 140px;
     }
     
-    main {
+    #homegrid {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
     }
@@ -99,4 +99,10 @@
     main .effect:hover {
         box-shadow: 0 0 50px #333;
     } 
+
+    #grid {
+        grid-template-columns: 1fr 1fr;
+        grid-column: 1 / -1;
+        justify-items: center;
+    }
 }

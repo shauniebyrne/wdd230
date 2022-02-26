@@ -210,6 +210,7 @@ main article.hero picture {
 .spotlight {
     border: 1px solid #34252F;
     padding: 0.5rem;
+    width: auto;
     height: auto;
     margin: 5px;
 }
@@ -257,10 +258,6 @@ main article.hero picture {
     padding: 0.5rem;
 }
 
-#map-image {
-    max-width: 20rem;
-}
-
 #banner {
     width: 100%;
     padding: 5px;
@@ -278,6 +275,7 @@ main article.hero picture {
 #grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    justify-content: center;
 }
 
 div article.effect {

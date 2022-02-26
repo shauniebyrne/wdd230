@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
         <script defer src="js/script.js"></script>
-        <script defer src="js/windchill.js"></script>
+        <script defer src="js/joinhiddendate.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">  
@@ -50,74 +50,35 @@
             <div class="date"></div>
             <section id="banner"></section>         
         </header>      
-        <main>
-            <div id="homegrid">
-                <article class="content hero">
-                    <picture>
-                        <source media="(max-width: 200px)" srcset="images/heroimage200.jpg">
-                        <source media="(max-width: 500px)" srcset="images/heroimage500.jpg">
-                        <source media="(max-width: 800px)" srcset="images/heroimage800.jpg">
-                        <img id="hero-picture" src="images/heroimage1100.jpg" alt="Corn Field at Sunset">
-                    </picture>
-                    <section class="herosection">
-                        <h3>Welcome to Taber</h3>
-                        <h4>Corn Capital of the West</h4>
-                    </section>
-                    <button id="join-button" type="button">Join the Chamber</button>  
-                </article>
-                <article class="content event">
-                    <h3>Cornfest</h3>
-                    <h4>Fun for the Whole Family</h4>
-                    <p>Come and join in the festivities.</p>
-                    <p>Event schedule and more info...</p>
-                </article>
-                <article class="content weather">
-                    <h3>Weather</h3>
-                    <section class="weather-flow">
-                        <img src="images/weather.png" alt="Sun Covered By Clouds">
-                        <h3><span id="temp">38</span>&#176; F</h3>
-                    </section>
-                    <h3>Partly Cloudy</h3>            
-                    <h4>Precipitation: 15%</h4>
-                    <h4>Wind: <span id="speed">23</span> mph</h4>
-                    <h4>Wind Chill: <span id="wind-chill"></span></h4>
-                </article>
-                <article class="content news">
-                    <h3>News Release</h3>
-                    <h4>Is covid setting our kids behind in school?</h4>
-                    <p>Parents are worried about their kids education as they are being forced
-                        to learn from home. Teachers are seeing grades drop and are worried for
-                        their students.
-                    </p>
-                </article>
-                <div class="content join">
-                    <button type="button">Join</button>
-                    <p>Click the button and sign up to join Taber's chamber of commerce.</p>
-                </div>
-                <article class="content spotlight-holder">
-                    <section class="spotlight">
-                        <h3>The Shoe Shoppe</h3>
-                        <img src="images/shoes.png" alt="A Pair of Blue Running Shoes">
-                        <h4>We have something for everyone, guaranteed!</h4>
-                        <p>5411 64 Ave, Taber, AB T1G 2A1</p>
-                        <p>Opens at 9:00 a.m.</p>
-                    </section>
-                    <section class="spotlight">
-                        <h3>Taber Animal Clinic</h3>
-                        <img src="images/cat.png" alt="Grey and White Striped Cat Sitting Down">
-                        <h4>We help animals of all sizes!</h4>
-                        <p>6212 54 Ave, Taber, AB T1G 1X3</p>
-                        <p>Opens at 8:00 a.m., Monday to Friday</p>
-                    </section>
-                    <section class="spotlight">
-                        <h3>Rumors Hair & Tanning Salon</h3>
-                        <img src="images/haircutting.png" alt="Black Scissors and a Black Comb">
-                        <h4>There's no style we can't do!</h4>
-                        <p>5104 49 Ave, Taber, AB T1G 1P2</p>
-                        <p>Appointments and Walk-ins Welcome</p>
-                    </section>
-                </article>
-            </div>
+        <main> 
+            <h3>Join the CornChamber</h3>         
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label class="top">First Name: * <input type="text" name="fname" required></label>
+                    <label class="top">Last Name: * <input type="text" name="lname" required></label>
+                    <label class="top">Email: * <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <label class="top">Phone Number: * <input type="tel" name="phone" placeholder="1234445678" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Business Information</legend>
+                    <label class="top">Business Name: * <input type="text" title="BusinessName" name="bname" required></label>
+                    <label class="top">Business Position: <input type="text" title="BusinessPosition" name="bposition" pattern=""></label>
+                    <label class="top" for="description">Business Description:</label>
+                    <textarea name="description" id="bdescription" cols="30" rows="10"></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>Membership Choice</legend>
+                    <div>Membership Levels:</div>
+                    <label class="bottom"><input type="radio" name="userchoice" value="np"> NP Membership</label>
+                    <label class="bottom"><input type="radio" name="userchoice" value="bronze"> Bronze Membership</label>
+                    <label class="bottom"><input type="radio" name="userchoice" value="silver"> Silver Membership</label>
+                    <label class="bottom"><input type="radio" name="userchoice" value="gold"> Gold Membership</label>
+                </fieldset>
+                <input type="submit" class="submitButton" value="Join CornChamber">
+                <input type="hidden" id="current-date" name="date" value="currentDate">
+                <input type="hidden" id="current-time" name="time"  value="currenTime">
+            </form>
         </main>
         <footer>
             <div class="top-footer">
