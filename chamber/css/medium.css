@@ -105,6 +105,10 @@
         grid-column: 1 / -1;
         justify-items: center;
     }
+    
+    div article.effect {
+        width: 425px;
+    }
 
     /* Join Page */
     form fieldset {
