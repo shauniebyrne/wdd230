@@ -353,7 +353,7 @@ form input.submitButton {
     border-radius: 1rem;
     padding: 0.8rem;
     margin: 2rem;
-    margin-left: 7rem;
+    margin-left: 5rem;
     width: 96%;
     max-width: 15rem;
 }
@@ -371,23 +371,25 @@ table {
     border-collapse: collapse;
     border: 2px solid black;
     letter-spacing: 1px;
-    margin: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     box-shadow: 5px 5px 8px black;
 }
 
 table caption {
     font-weight: bolder;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #34252F;
 }
 
 thead {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 
 td, th {
     border: 1px solid black;
     padding: 7px 2px;
+    font-size: 0.75rem;
 }
 
 td {
