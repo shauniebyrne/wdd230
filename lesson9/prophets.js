@@ -19,6 +19,23 @@ function displayProphets(prophet) {
     let portrait = document.createElement('img');
     let p1 = document.createElement('p');
     let p2 = document.createElement('p');
+    let order = '';
+
+    //Add the ending to the order number (st, nd, rd, th)
+    switch (prophet.order) {
+        case 1:
+            order = `${prophet.order}st`;
+            break;
+        case 2:
+            order = `${prophet.order}nd`;
+            break;
+        case 3:
+            order = `${prophet.order}rd`;
+            break;
+        default: 
+            order = `${prophet.order}th`;
+    }
+
 
     //Change textContent to use Prophets full name
     h2.textContent = `${prophet.name} ${prophet.lastname}`;
@@ -27,7 +44,7 @@ function displayProphets(prophet) {
 
     //Build image attributes by using setAttribute method for src, alt, and loading attribute values.
     portrait.setAttribute('src', prophet.imageurl);
-    portrait.setAttribute('alt', `Portrait of: ${prophet.name} ${prophet.lastname} - ${prophet.order} Latter-day President`);
+    portrait.setAttribute('alt', `Portrait of: ${prophet.name} ${prophet.lastname} - ${order} Latter-day President`);
     portrait.setAttribute('loading', 'lazy');
 
     //Add/append the h2 and image to the section(card)
