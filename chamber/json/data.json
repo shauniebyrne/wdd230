@@ -54,14 +54,14 @@
             "address": "6003D 60 Ave, Taber, AB T1G 2C1",
             "phonenumber":"(403) 223-4577",
             "website": "https://cooperequipment.ca/",
-            "logo": "https://cooperequipment.ca/content/themes/cooper-theme/dist/images/logo-cooper-minimal.svg"
+            "logo": "images/cooperlogo.jpg"
         },
         {
             "name": "1st Choice Savings & Credit Union Ltd",
             "address": "5227 48 Ave, Taber, AB T1G 1S8",
             "phonenumber":"(403) 223-5300",
             "website": "https://www.1stchoicesavings.ca/en/personal",
-            "logo": "https://www.1stchoicesavings.ca/media/1344/login.svg"
+            "logo": "images/1stchoicelogo.jpg"
         },
         {
             "name": "ATB Financial",
@@ -75,14 +75,14 @@
             "address": "4818 53 St, Taber, AB T1G 1W4",
             "phonenumber":"(403) 223-5647",
             "website": "https://www.rbcroyalbank.com/personal.html",
-            "logo": "https://www.rbcroyalbank.com/dvl/assets/images/logos/rbc-logo-shield.svg"
+            "logo": "images/rbclogo.png"
         },
         {
             "name": "Saunders Insurance LTD",
             "address": "5216 48 Ave, Taber, AB T1G 1S1",
             "phonenumber":"(403) 223-4434",
             "website": "https://saunders-insurance.com/",
-            "logo": "https://saunders-insurance.com/wp-content/uploads/2021/12/Saunders-Logo-long.jpg"
+            "logo": "images/saundersinsurancelogo.jpg"
         },
         {
             "name": "Scotiabank",
@@ -103,7 +103,7 @@
             "address": "4922 46 Ave, Taber, AB T1G 2A4",
             "phonenumber":"(403) 223-6433",
             "website": "https://www.mcdonalds.com/ca/en-ca.html",
-            "logo": "https://www.mcdonalds.com/content/dam/ca/nfl/web/logo/McD-squareLogo.png"
+            "logo": "images/mcdonaldslogo.jpg"
         },
         {
             "name": "Taber IGA",
@@ -117,7 +117,7 @@
             "address": "4830 46 Ave, Taber, AB T1G 2A4",
             "phonenumber":"(403) 223-4424",
             "website": "https://heritageinn.net/",
-            "logo": "https://heritageinn.net/res/img/Heritage-Inn.svg"
+            "logo": "images/heritageinnlogo.jpg"
         }
     ]
 }
