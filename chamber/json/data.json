@@ -1,0 +1,123 @@
+{
+    "directory" : [
+        {
+            "name": "The Shoe Shoppe",
+            "address": "5411 64 Ave, Taber, AB T1G 2A1",
+            "phonenumber": "(403) 223-5641",
+            "website": "httsp://theshoeshoppe.com",
+            "logo": "images/shoes.png"
+        },
+        {
+            "name": "Taber Animal Clinic",
+            "address": "6212 54 Ave, Taber, AB T1G 1X3",
+            "phonenumber": "(403) 223-2534",
+            "website": "httsp://taberanimalclinic.com",
+            "logo": "images/cat.png"
+        },
+        {
+            "name": "Rumors Hair & Tanning Salon",
+            "address": "5104 49 Ave, Taber, AB T1G 1P2",
+            "phonenumber": "(403) 223-6279",
+            "website": "httsp://rumorshair&tanningsalon.com",
+            "logo": "images/haircutting.png"
+        },
+        {
+            "name": "Moonlite Graphics",
+            "address": "5307 48 Ave, Taber, AB T1G 1S7",
+            "phonenumber":"(403) 416-0055",
+            "website": "https://www.facebook.com/MoonliteGraphicsTaber2016/",
+            "logo": "https://www.facebook.com/MoonliteGraphicsTaber2016/photos/a.1661884174061555/2477249652524999/?__tn__=%3C"
+        },
+        {
+            "name": "The Taber Times",
+            "address": "4822 53 St, Taber, AB T!G 1W4",
+            "phonenumber": "(403) 223-2266",
+            "website": "https://tabertimes.com/",
+            "logo": "images/tabertimeslogo.jpg"
+        },
+        {
+            "name": "VHL Construction",
+            "address": "Box 4779, Taber, AB T1G 2E1",
+            "phonenumber": "(403) 223-9411",
+            "website": "https://vhlconstruction.ca/",
+            "logo": "https://vhlconstruction.ca/wp-content/uploads/2018/12/white-logo-2.png"
+        },
+        {
+            "name": "Taber Home Hardware",
+            "address": "5800 50th Ave, Taber, AB T1G 0A2",
+            "phonenumber": "(403) 223-1122",
+            "website": "https://www.homehardware.ca/",
+            "logo": "images/homehardwarelogo.jpg"
+        },
+        {
+            "name": "Cooper Equipment Rentals",
+            "address": "6003D 60 Ave, Taber, AB T1G 2C1",
+            "phonenumber":"(403) 223-4577",
+            "website": "https://cooperequipment.ca/",
+            "logo": "https://cooperequipment.ca/content/themes/cooper-theme/dist/images/logo-cooper-minimal.svg"
+        },
+        {
+            "name": "1st Choice Savings & Credit Union Ltd",
+            "address": "5227 48 Ave, Taber, AB T1G 1S8",
+            "phonenumber":"(403) 223-5300",
+            "website": "https://www.1stchoicesavings.ca/en/personal",
+            "logo": "https://www.1stchoicesavings.ca/media/1344/login.svg"
+        },
+        {
+            "name": "ATB Financial",
+            "address": "5317 48 Ave, Taber, AB T1G 1S7",
+            "phonenumber":"(403) 223-6888",
+            "website": "https://www.atb.com/personal/",
+            "logo": "images/atblogo.jpg"
+        },
+        {
+            "name": "RBC Royal Bank",
+            "address": "4818 53 St, Taber, AB T1G 1W4",
+            "phonenumber":"(403) 223-5647",
+            "website": "https://www.rbcroyalbank.com/personal.html",
+            "logo": "https://www.rbcroyalbank.com/dvl/assets/images/logos/rbc-logo-shield.svg"
+        },
+        {
+            "name": "Saunders Insurance LTD",
+            "address": "5216 48 Ave, Taber, AB T1G 1S1",
+            "phonenumber":"(403) 223-4434",
+            "website": "https://saunders-insurance.com/",
+            "logo": "https://saunders-insurance.com/wp-content/uploads/2021/12/Saunders-Logo-long.jpg"
+        },
+        {
+            "name": "Scotiabank",
+            "address": "4824 53 St, Taber, AB T1G 1W4",
+            "phonenumber":"(403) 223-3513",
+            "website": "https://www.scotiabank.com/global/en/global-site.html",
+            "logo": "https://www.scotiabank.com/content/dam/scotiabank/images/logos/2019/scotiabank-logo-red-desktop-200px.svg"
+        },
+        {
+            "name": "A & W",
+            "address": "5015 47 Ave, Taber, AB T1G 1R7",
+            "phonenumber":"(403) 223-8901",
+            "website": "https://a&w.com",
+            "logo": "images/a&wlogo.jpg"
+        },
+        {
+            "name": "McDonald's Restaurant",
+            "address": "4922 46 Ave, Taber, AB T1G 2A4",
+            "phonenumber":"(403) 223-6433",
+            "website": "https://www.mcdonalds.com/ca/en-ca.html",
+            "logo": "https://www.mcdonalds.com/content/dam/ca/nfl/web/logo/McD-squareLogo.png"
+        },
+        {
+            "name": "Taber IGA",
+            "address": "5112 48 Ave, Taber, AB T1G 1R9",
+            "phonenumber":"(403) 223-0672",
+            "website": "https://west.iga.ca/",
+            "logo": "https://west.iga.ca/wp-content/uploads/2021/02/IGA-logo.svg"
+        },
+        {
+            "name": "Heritage Inn Hotel & Convention Centre",
+            "address": "4830 46 Ave, Taber, AB T1G 2A4",
+            "phonenumber":"(403) 223-4424",
+            "website": "https://heritageinn.net/",
+            "logo": "https://heritageinn.net/res/img/Heritage-Inn.svg"
+        }
+    ]
+}
