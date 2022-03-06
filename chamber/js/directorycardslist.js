@@ -39,7 +39,7 @@ function displayCards(card) {
         
     
     //Add/append the section(card) to the div with the card class
-    document.querySelector('.cards').appendChild(section);
+    document.querySelector('#cards').appendChild(section);
 }
 
 function displayList(list) {
@@ -65,5 +65,5 @@ function displayList(list) {
         
     
     //Add/append the section(card) to the div with the card class
-    document.querySelector('.list').appendChild(section);
+    document.querySelector('#list').appendChild(section);
 }

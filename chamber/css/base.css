@@ -418,12 +418,12 @@ main #card-button:hover, main #list-button:hover {
     background-color: #BEC5AD;
 }
 
-div.cards {
+div#cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
-div.cards section{
+div#cards section{
     border: 1px solid #34252F;
     background-color: #519872;
     padding: 0.5rem;
@@ -433,37 +433,41 @@ div.cards section{
     box-shadow: 5px 5px 8px black;
 }
 
-div.cards section h2, div.cards section img, 
-div.cards section p, div.cards section a {
+div#cards section h2, div#cards section img, 
+div#cards section p, div#cards section a {
     padding: 0.5rem;
 }
 
-div.cards section p {
+div#cards section p {
     color: black;
     font-weight: bold;
 }
 
-div.cards section img {
+div#cards section img {
     width: 100%;
     max-width: 120px;
 }
 
-div.cards section a {
+div#cards section a {
     overflow-wrap: break-word;
 }
 
-div.list section {
+div#list section {
     margin: 0.5rem auto;
     padding: 0.5rem;
     text-align: center;
     width: 95%
 }
 
-div.list section p, div.list section a {
+div#list section p, div#list section a {
     padding: 0.25rem;
     font-weight: bold;
 }
 
-div.list section:nth-child(odd) {
+div#list section:nth-child(odd) {
     background-color: #BEC5AD;
+}
+
+#cards.hidden, #list.hidden {
+    display: none;
 }
