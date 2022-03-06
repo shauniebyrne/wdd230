@@ -433,7 +433,7 @@ div#cards section{
     box-shadow: 5px 5px 8px black;
 }
 
-div#cards section h2, div#cards section img, 
+div#cards section img, 
 div#cards section p, div#cards section a {
     padding: 0.5rem;
 }
@@ -450,6 +450,7 @@ div#cards section img {
 
 div#cards section a {
     overflow-wrap: break-word;
+    font-weight: bold;
 }
 
 div#list section {
