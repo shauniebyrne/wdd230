@@ -138,7 +138,12 @@
     }
 
     /* Directory Page */
-    div.directory-buttons {
-        margin: auto 41%;
+    
+    div.list section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        padding: 2rem;
     }
 }

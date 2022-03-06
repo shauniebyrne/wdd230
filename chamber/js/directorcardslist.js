@@ -45,20 +45,20 @@ function displayCards(card) {
 function displayList(list) {
     //Create elements to add to the document
     let section = document.createElement('section');
-    let h3 = document.createElement('h3');
+    let h4 = document.createElement('h4');
     let p1 = document.createElement('p');
     let p2 = document.createElement('p');
     let a = document.createElement('a');
     
     //Add text content to the directory cards
-    h3.textContent = `${list.name}`;
+    h4.textContent = `${list.name}`;
     p1.textContent = `${list.address}`;
     p2.textContent = `${list.phonenumber}`;
     a.textContent = `${list.website}`;
     a.setAttribute('href', list.website);
     
     //Add/append the h2 and image to the section(card)
-    section.appendChild(h3);
+    section.appendChild(h4);
     section.appendChild(p1);
     section.appendChild(p2);
     section.appendChild(a);

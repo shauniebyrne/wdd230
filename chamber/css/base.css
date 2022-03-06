@@ -451,3 +451,19 @@ div.cards section img {
 div.cards section a {
     overflow-wrap: break-word;
 }
+
+div.list section {
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    text-align: center;
+    width: 95%
+}
+
+div.list section p, div.list section a {
+    padding: 0.25rem;
+    font-weight: bold;
+}
+
+div.list section:nth-child(odd) {
+    background-color: #BEC5AD;
+}
