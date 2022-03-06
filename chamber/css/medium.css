@@ -136,4 +136,9 @@
     td, th {
         font-size: 1rem;
     }
+
+    /* Directory Page */
+    div.directory-buttons {
+        margin: auto 41%;
+    }
 }

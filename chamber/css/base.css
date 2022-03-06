@@ -396,3 +396,58 @@ td {
     text-align: center;
 }
 
+/* Directory Page */
+
+div.directory-buttons {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+main #card-button, main #list-button {
+    margin: 1rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+main #card-button:hover, main #list-button:hover {
+    box-shadow: 0 0 10px black;
+    background-color: #BEC5AD;
+}
+
+div.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+div.cards section{
+    border: 1px solid #34252F;
+    background-color: #519872;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    width: auto;
+    text-align: center;
+    box-shadow: 5px 5px 8px black;
+}
+
+div.cards section h2, div.cards section img, 
+div.cards section p, div.cards section a {
+    padding: 0.5rem;
+}
+
+div.cards section p {
+    color: black;
+    font-weight: bold;
+}
+
+div.cards section img {
+    width: 100%;
+    max-width: 120px;
+}
+
+div.cards section a {
+    overflow-wrap: break-word;
+}
