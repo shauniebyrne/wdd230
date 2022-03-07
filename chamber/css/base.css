@@ -469,11 +469,3 @@ div#list section p, div#list section a {
 div#list section:nth-child(odd) {
     background-color: #BEC5AD;
 }
-
-#cards, #list {
-    display: block;
-}
-
-#cards.hidden, #list.hidden {
-    display: none;
-}
