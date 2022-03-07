@@ -463,10 +463,15 @@ div#list section {
 div#list section p, div#list section a {
     padding: 0.25rem;
     font-weight: bold;
+    overflow-wrap: break-word;
 }
 
 div#list section:nth-child(odd) {
     background-color: #BEC5AD;
+}
+
+#cards, #list {
+    display: block;
 }
 
 #cards.hidden, #list.hidden {
