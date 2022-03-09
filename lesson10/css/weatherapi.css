@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+body {
+    margin: 0 0.25rem;
+}
+
+
+main {
+    border: 2px solid darkred;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 750px;
+    background-color: lightgoldenrodyellow;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: darkred;
+    padding: 0.5rem;
+    text-shadow: 0 0 25px yellow;
+}
+
+p {
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 0.25rem;
+    color: darkred;
+}
+
+figure img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption {
+    text-align: center;
+}
+
