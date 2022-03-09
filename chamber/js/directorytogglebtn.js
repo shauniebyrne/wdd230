@@ -5,9 +5,11 @@ const cards = document.getElementById('cards');
 const list = document.getElementById('list');
 
 cardsButton.addEventListener('click', () => {
-    list.classList.toggle('hidden');
+    list.classList.add('hidden');
+    cards.classList.remove('hidden');
 }, false);
 
 listButton.addEventListener('click', () => {
-    cards.classList.toggle('hidden');
+    cards.classList.add('hidden');
+    list.classList.remove('hidden');
 }, false);
