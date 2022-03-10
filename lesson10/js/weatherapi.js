@@ -3,7 +3,7 @@ const apiURL = "https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&unit
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
-        console.log(jsObject);
+        //console.log(jsObject);
 
         //Display current temp in Fairbanks, Alaska
         document.getElementById('current-temp').textContent = (jsObject.main.temp).toFixed(1);

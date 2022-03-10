@@ -9,4 +9,4 @@ let mins = d.getMinutes();
 let seconds = d.getSeconds();
 document.getElementById('current-time').value = `${hours}:${mins}:${seconds}`;
 
-// go this idea from : https://stackoverflow.com/questions/39182400/current-date-and-current-time-in-hidden-fields
+// got this idea from : https://stackoverflow.com/questions/39182400/current-date-and-current-time-in-hidden-fields
