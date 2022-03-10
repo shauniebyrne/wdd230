@@ -225,15 +225,15 @@ main article.hero picture {
     padding: 5px;
 }
 
-.weather h3:nth-child(3) {
-    text-align: right;
-}
-
 .weather-flow {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.weather h4 {
+    padding: 0.2rem;
 }
 
 .event > p {

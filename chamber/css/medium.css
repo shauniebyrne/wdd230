@@ -71,6 +71,10 @@
         grid-area: 5 / 1 / 6 / 4;
     }
 
+    .event h3 {
+        margin-top: 2rem;
+    }
+
     .weather {
         grid-area: 5 / 4 / 6 / 6;
     }
