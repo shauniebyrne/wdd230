@@ -31,11 +31,16 @@ fetch(apiURL)
         document.querySelector('#wind-chill').innerHTML = windChill;
 
         // Adding the current weather conditions image and info to the DOM
-        const iconImg = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
-        const description = jsObject.weather[0].description;
+        let iconImg = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
+        let description = jsObject.weather[0].description;
+        description = description.split(' ').map(capitalize).join(' ');
 
         document.querySelector('#condition-img').setAttribute('src', iconImg);
         document.querySelector('#condition-img').setAttribute('alt', description);
-        document.querySelector('#current-conditions').textContent = description;
-        
+        document.querySelector('#current-conditions').textContent = description;      
     });  
+
+function capitalize(word) {
+    return `${word.charAt(0).toUpperCase()}${word.slice(1)}`; 
+    // Got this code from Bro. Blazzard
+}
