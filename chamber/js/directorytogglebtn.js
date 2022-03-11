@@ -13,3 +13,8 @@ listButton.addEventListener('click', () => {
     cards.classList.add('hidden');
     list.classList.remove('hidden');
 }, false);
+
+if (window.innerWidth >= 520 && window.innerWidth <= 1120) {
+    cards.classList.add('hidden');
+    list.classList.remove('hidden');
+};
