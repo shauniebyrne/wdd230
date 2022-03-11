@@ -3,7 +3,7 @@ const apiURL = "https://api.openweathermap.org/data/2.5/weather?q=Taber&units=me
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
-        console.log(jsObject);
+        //console.log(jsObject);
 
         // Get temp and speed from weather api
         let temp = jsObject.main.temp;
@@ -20,7 +20,7 @@ fetch(apiURL)
 
         // Wind Chill calculation
         function calculation(t, s) {
-            let number = 13.12 + (0.6215 * t) - (11.37 * (s **  0.16)) + ((0.3965 * t) * (s ** 0.16));
+            let number = 13.12 + (0.6215 * t) - (11.37 * (s ** 0.16)) + ((0.3965 * t) * (s ** 0.16));
             return Math.round(number);
         };
 
