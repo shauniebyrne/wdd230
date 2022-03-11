@@ -108,8 +108,9 @@
     }
 
     /* Discover Page */
-    #grid {
-        grid-template-columns: 1fr 1fr 1fr;
+
+    div article.effect {
+        width: 425px;
     }
 
     /* Join Page */

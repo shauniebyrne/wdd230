@@ -105,15 +105,9 @@
     } 
 
     #grid {
-        grid-template-columns: 1fr 1fr;
-        grid-column: 1 / -1;
         justify-items: center;
     }
     
-    div article.effect {
-        width: 425px;
-    }
-
     /* Join Page */
     form fieldset {
         margin-left: auto;
