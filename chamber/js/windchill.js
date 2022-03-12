@@ -31,7 +31,7 @@ fetch(apiURL)
         document.querySelector('#wind-chill').innerHTML = windChill;
 
         // Adding the current weather conditions image and info to the DOM
-        let iconImg = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
+        let iconImg = `https://openweathermap.org/img/wn/${jsObject.weather[0].icon}@2x.png`;
         let description = jsObject.weather[0].description;
         description = description.split(' ').map(capitalize).join(' ');
 
