@@ -1,4 +1,4 @@
-let d = new Date();
+//let d = new Date();
 
 // Hidden Current Date
 document.getElementById('current-date').value = d.toDateString();
