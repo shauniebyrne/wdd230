@@ -9,7 +9,7 @@ let numberOfDays = daysBetween / calculation;
 
 if (numberOfDays == 0) {
 	visitsDisplay.textContent = "This is your first visit!";
-} else if (numberOfDays <=1) {
+} else if (numberOfDays > 0 && numberOfDays < 1) {
 	visitsDisplay.textContent = "It hasn't even been a day since your last visit"
 } else {
 	visitsDisplay.textContent = Math.round(numberOfDays);
