@@ -144,14 +144,11 @@
     }
 
     div.contact-container form {
-        justify-content: space-around;
+        justify-content: end;
         
     }
 
     div.contact-container section.contact-info-box {
         margin: 1rem;
-        max-width: 100rem;
-        justify-content: center;
-        align-content: center;
     }
 }
