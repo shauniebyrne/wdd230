@@ -136,4 +136,22 @@
         margin: 2rem;
     }
 
+    /* Contact Page */
+    main div.contact-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0.25rem;
+    }
+
+    div.contact-container form {
+        justify-content: space-around;
+        
+    }
+
+    div.contact-container section.contact-info-box {
+        margin: 1rem;
+        max-width: 100rem;
+        justify-content: center;
+        align-content: center;
+    }
 }
