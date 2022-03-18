@@ -87,7 +87,7 @@ nav ul li a:visited {
     font-weight: bold;
 }
 
-nav ul li a:hover {
+nav ul li a:hover, a {
     color: #519872;
     background-color: #3B5249;
     cursor: pointer;
@@ -434,6 +434,7 @@ main #card-button, main #list-button {
 main #card-button:hover, main #list-button:hover {
     box-shadow: 0 0 10px black;
     background-color: #BEC5AD;
+    cursor: pointer;
 }
 
 div#cards {
