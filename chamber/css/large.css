@@ -141,10 +141,6 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 0.25rem;
-        background-image: url('../images/backgroundphoto.jpg');
-        background-color: white;
-        background-position: left;
-        background-repeat: no-repeat;
     }
 
     div.contact-container form {
