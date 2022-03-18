@@ -5,119 +5,136 @@
             "address": "5411 64 Ave, Taber, AB T1G 2A1",
             "phonenumber": "(403) 223-5641",
             "website": "httsp://theshoeshoppe.com",
-            "logo": "images/shoes.png"
+            "logo": "images/shoes.png",
+            "membership": "np"
         },
         {
             "name": "Taber Animal Clinic",
             "address": "6212 54 Ave, Taber, AB T1G 1X3",
             "phonenumber": "(403) 223-2534",
             "website": "httsp://taberanimalclinic.com",
-            "logo": "images/cat.png"
+            "logo": "images/cat.png",
+            "membership": "np"
         },
         {
             "name": "Rumors Hair & Tanning Salon",
             "address": "5104 49 Ave, Taber, AB T1G 1P2",
             "phonenumber": "(403) 223-6279",
             "website": "httsp://rumorshair&tanningsalon.com",
-            "logo": "images/haircutting.png"
+            "logo": "images/haircutting.png",
+            "membership": "np"
         },
         {
             "name": "Moonlite Graphics",
             "address": "5307 48 Ave, Taber, AB T1G 1S7",
             "phonenumber":"(403) 416-0055",
             "website": "https://www.facebook.com/MoonliteGraphicsTaber2016/",
-            "logo": "images/moonlightlogo.jpg"
+            "logo": "images/moonlightlogo.jpg",
+            "membership": "gold"
         },
         {
             "name": "The Taber Times",
             "address": "4822 53 St, Taber, AB T!G 1W4",
             "phonenumber": "(403) 223-2266",
             "website": "https://tabertimes.com/",
-            "logo": "images/tabertimeslogo.jpg"
+            "logo": "images/tabertimeslogo.jpg",
+            "membership": "np"
         },
         {
             "name": "VHL Construction",
             "address": "Box 4779, Taber, AB T1G 2E1",
             "phonenumber": "(403) 223-9411",
             "website": "https://vhlconstruction.ca/",
-            "logo": "https://vhlconstruction.ca/wp-content/uploads/2018/12/white-logo-2.png"
+            "logo": "https://vhlconstruction.ca/wp-content/uploads/2018/12/white-logo-2.png",
+            "membership": "silver"
         },
         {
             "name": "Taber Home Hardware",
             "address": "5800 50th Ave, Taber, AB T1G 0A2",
             "phonenumber": "(403) 223-1122",
             "website": "https://www.homehardware.ca/",
-            "logo": "images/homehardwarelogo.jpg"
+            "logo": "images/homehardwarelogo.jpg",
+            "membership": "bronze"
         },
         {
             "name": "Cooper Equipment Rentals",
             "address": "6003D 60 Ave, Taber, AB T1G 2C1",
             "phonenumber":"(403) 223-4577",
             "website": "https://cooperequipment.ca/",
-            "logo": "images/cooperlogo.jpg"
+            "logo": "images/cooperlogo.jpg",
+            "membership": "gold"
         },
         {
             "name": "1st Choice Savings & Credit Union Ltd",
             "address": "5227 48 Ave, Taber, AB T1G 1S8",
             "phonenumber":"(403) 223-5300",
             "website": "https://www.1stchoicesavings.ca/en/personal",
-            "logo": "images/1stchoicelogo.jpg"
+            "logo": "images/1stchoicelogo.jpg",
+            "membership": "bronze"
         },
         {
             "name": "ATB Financial",
             "address": "5317 48 Ave, Taber, AB T1G 1S7",
             "phonenumber":"(403) 223-6888",
             "website": "https://www.atb.com/personal/",
-            "logo": "images/atblogo.jpg"
+            "logo": "images/atblogo.jpg",
+            "membership": "bronze"
         },
         {
             "name": "RBC Royal Bank",
             "address": "4818 53 St, Taber, AB T1G 1W4",
             "phonenumber":"(403) 223-5647",
             "website": "https://www.rbcroyalbank.com/personal.html",
-            "logo": "images/rbclogo.png"
+            "logo": "images/rbclogo.png",
+            "membership": "bronze"
         },
         {
             "name": "Saunders Insurance LTD",
             "address": "5216 48 Ave, Taber, AB T1G 1S1",
             "phonenumber":"(403) 223-4434",
             "website": "https://saunders-insurance.com/",
-            "logo": "images/saundersinsurancelogo.jpg"
+            "logo": "images/saundersinsurancelogo.jpg",
+            "membership": "np"
         },
         {
             "name": "Scotiabank",
             "address": "4824 53 St, Taber, AB T1G 1W4",
             "phonenumber":"(403) 223-3513",
             "website": "https://www.scotiabank.com/global/en/global-site.html",
-            "logo": "https://www.scotiabank.com/content/dam/scotiabank/images/logos/2019/scotiabank-logo-red-desktop-200px.svg"
+            "logo": "https://www.scotiabank.com/content/dam/scotiabank/images/logos/2019/scotiabank-logo-red-desktop-200px.svg",
+            "membership": "np"
         },
         {
             "name": "A & W",
             "address": "5015 47 Ave, Taber, AB T1G 1R7",
             "phonenumber":"(403) 223-8901",
             "website": "https://a&w.com",
-            "logo": "images/a&wlogo.jpg"
+            "logo": "images/a&wlogo.jpg",
+            "membership": "bronze"
         },
         {
             "name": "McDonald's Restaurant",
             "address": "4922 46 Ave, Taber, AB T1G 2A4",
             "phonenumber":"(403) 223-6433",
             "website": "https://www.mcdonalds.com/ca/en-ca.html",
-            "logo": "images/mcdonaldslogo.jpg"
+            "logo": "images/mcdonaldslogo.jpg",
+            "membership": "bronze"
         },
         {
             "name": "Taber IGA",
             "address": "5112 48 Ave, Taber, AB T1G 1R9",
             "phonenumber":"(403) 223-0672",
             "website": "https://west.iga.ca/",
-            "logo": "https://west.iga.ca/wp-content/uploads/2021/02/IGA-logo.svg"
+            "logo": "https://west.iga.ca/wp-content/uploads/2021/02/IGA-logo.svg",
+            "membership": "np"
         },
         {
             "name": "Heritage Inn Hotel & Convention Centre",
             "address": "4830 46 Ave, Taber, AB T1G 2A4",
             "phonenumber":"(403) 223-4424",
             "website": "https://heritageinn.net/",
-            "logo": "images/heritageinnlogo.jpg"
+            "logo": "images/heritageinnlogo.jpg",
+            "membership": "np"
         }
     ]
 }
