@@ -1,4 +1,4 @@
-const spotlight = document.querySelector('.spotlight');
+const spotlight = document.querySelector('.spotlight-holder');
 const URL = 'https://shauniebyrne.github.io/wdd230/chamber/json/data.json';
 
 fetch(URL)
@@ -6,12 +6,11 @@ fetch(URL)
         return response.json();
     })
     .then(function(jsonObject) {
-        console.log(jsonObject);
+        //console.log(jsonObject);
         const spotlightCards = jsonObject['directory'];
         
         spotlightCards.forEach(displaySpotlights);
     });
-
 
 function displaySpotlights(sCards) {
     const membStat = sCards.membership;
@@ -19,6 +18,7 @@ function displaySpotlights(sCards) {
     if (membStat === "silver" || membStat === "gold") {
 
         //Create Elements to add to the DOM
+        let section = document.createElement('section');
         let h3 = document.createElement('h3');
         let logoImg = document.createElement('img');
         let p1 = document.createElement('p');
@@ -38,10 +38,13 @@ function displaySpotlights(sCards) {
         a.setAttribute('href', sCards.website);
 
         //Append all to the spotlight card
-        spotlight.appendChild(h3);
-        spotlight.appendChild(logoImg);
-        spotlight.appendChild(p1);
-        spotlight.appendChild(p2);
-        spotlight.appendChild(a);
+        section.appendChild(h3);
+        section.appendChild(logoImg);
+        section.appendChild(p1);
+        section.appendChild(p2);
+        section.appendChild(a);
+
+        //Add all changes to the DOM in the spotlight holder box
+        spotlight.appendChild(section);
     };
 }

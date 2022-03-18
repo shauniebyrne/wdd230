@@ -202,25 +202,43 @@ main article.hero picture {
     border-radius: 10px 10px 10px 10px;
 }
 
-.spotlight-holder {
+article.spotlight-holder {
     display: flex;
     flex-direction: column;
     height: auto;
 }
 
-.spotlight {
+article.spotlight-holder section {
     border: 1px solid #34252F;
     padding: 0.5rem;
     width: auto;
     height: auto;
     margin: 5px;
+    background-color: #BEC5AD;
+    box-shadow: 5px 5px 8px black;
 }
 
-.spotlight > p {
+article.spotlight-holder section h3, article.spotlight-holder section img,
+article.spotlight-holder section p, article.spotlight-holder section a {
+    padding: 0.25rem;
+}
+
+article.spotlight-holder section p {
     color: black;
+    font-weight: bold;
 }
 
-.spotlight > h4, .weather h3:nth-child(3) {
+article.spotlight-holder section a {
+    font-weight: bold;
+    overflow-wrap: break-word;
+}
+
+article.spotlight-holder section img {
+    width: 100%;
+    max-width: 10rem;
+}
+
+.weather h3:nth-child(3) {
     border-bottom: 2px solid;
     padding: 5px;
 }
