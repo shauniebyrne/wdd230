@@ -480,7 +480,7 @@ div#list section {
 }
 
 div#list section p, div#list section a {
-    padding: 0.25rem;
+    padding: 0.5rem;
     font-weight: bold;
     overflow-wrap: break-word;
 }
