@@ -115,7 +115,9 @@
     }
 
     form input.submitButton {
-        margin-left: 18rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     table {
@@ -149,5 +151,12 @@
         text-align: left;
         align-items: center;
         padding: 2rem;
+    }
+
+    /* Contact Page */
+
+    section.contact-section figure > iframe {
+        width: 100%;
+        max-width: 400px;
     }
 }

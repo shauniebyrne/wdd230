@@ -370,9 +370,9 @@ form input.submitButton {
     font-weight: bold;
     border-radius: 1rem;
     padding: 0.8rem;
-    margin: 1.5rem;
-    margin-left: 5rem;
-    width: 96%;
+    margin: 1rem;
+    margin-left: 2.5rem;
+    width: 100%;
     max-width: 15rem;
 }
 
@@ -473,10 +473,10 @@ div#cards section a {
 }
 
 div#list section {
-    margin: 0.5rem auto;
+    margin: 0.5rem;
     padding: 0.5rem;
     text-align: center;
-    width: 95%
+    width: auto;
 }
 
 div#list section p, div#list section a {
@@ -506,6 +506,9 @@ form #contact-join-button {
     margin: 1rem;
     width: 95%;
     max-width: 25rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 section.contact-info-box {
@@ -534,4 +537,8 @@ p.contact-p {
     font-weight: bold;
     font-size: 1.25rem;
     color: black;
+}
+
+section.contact-section figure > iframe {
+    width: 85%;
 }
