@@ -60,6 +60,10 @@ nav ul li a:active {
     color: #F7F0F0;
 }
 
+main h2:first-child {
+    color: #273654;
+}
+
 h1, h2, h3 {
     font-family: 'Raleway', 'Tahoma', sans-serif;
     color: #F7F0F0;
