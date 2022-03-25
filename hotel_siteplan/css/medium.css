@@ -1,6 +1,27 @@
 /* ----Fonts----*/
-/* font-family: 'Raleway', sans-serif;
-font-family: 'Red Hat Mono', monospace; */
+/* 
+font-family: 'Raleway', 'Tahoma', sans-serif; PARAGRAPH
+font-family: 'Red Hat Mono', 'Courier New', monospace; HEADINGS
+*/
 
 /*-----Colors-----*/
-/* */
+/* 
+Space Cadet (darkBlue): #273654
+Snow (white): #F7F0F0
+Air Superiority Blue (lightBlue): #6CA6C1
+Blood Red (darkRed): #6B0504
+*/
+
+@media screen and (min-width: 37.5em) {
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 auto;
+    }
+
+    img.sitemap {
+        max-width: 600px;
+    }
+}

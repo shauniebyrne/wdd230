@@ -1,6 +1,112 @@
 /* ----Fonts----*/
-/* font-family: 'Raleway', sans-serif;
-font-family: 'Red Hat Mono', monospace; */
+/* 
+font-family: 'Raleway', 'Tahoma', sans-serif; HEADINGS
+font-family: 'Red Hat Mono', 'Courier New', monospace; PARAGRAPH
+*/
 
 /*-----Colors-----*/
-/* */
+/* 
+Space Cadet (darkBlue): #273654
+Snow (white): #F7F0F0
+Air Superiority Blue (lightBlue): #6CA6C1
+Blood Red (darkRed): #6B0504
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    background-color: #6CA6C1;
+}
+
+header, footer {
+    background-color: #273654;
+}
+
+nav {
+    background-color: #6B0504;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li a {
+    color: #F7F0F0;
+    display: block;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 0.5em;
+}
+
+nav ul li a:visited {
+    color:#6CA6C1;
+}
+
+nav ul li a:hover {
+    background-color: #273654;
+    cursor: pointer;
+}
+
+nav ul li a:active {
+    color: #F7F0F0;
+}
+
+h1, h2, h3 {
+    font-family: 'Raleway', 'Tahoma', sans-serif;
+    color: #F7F0F0;
+    padding: 0.5em;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+p {
+    font-family: 'Red Hat Mono', 'Courier New', monospace; 
+    color: #F7F0F0;
+    padding: 0.5em;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5em;
+}
+
+img.logo-img {
+    background-color: #6CA6C1;
+}
+
+img.sitemap {
+    width: 100%;
+    max-width: 320px;
+}
+
+section {
+    background-color: #6B0504;
+    box-shadow: 5px 5px 8px black;
+    margin: 0.5em;
+    border:3px solid #273654;
+    
+}
+
