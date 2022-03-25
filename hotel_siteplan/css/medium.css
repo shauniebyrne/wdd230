@@ -24,4 +24,11 @@ Blood Red (darkRed): #6B0504
     img.sitemap {
         max-width: 600px;
     }
+
+    /* COLOR SCHEME PAGE */
+
+    div.grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
 }
