@@ -27,6 +27,27 @@ header, footer {
     background-color: #273654;
 }
 
+/* ----Header---- */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header figure img{
+    width: 100%;
+    max-width: 150px;
+    padding: 0.5rem;
+}
+
+div.social {
+    padding: 0.5rem;
+}
+
+div.social a img {
+    height: 50px;
+}
+
 nav {
     background-color: #6B0504;
     text-align: center;
@@ -75,6 +96,7 @@ nav ul li a:active {
     display: block;
 }
 
+/* ----Main---- */
 h1, h2, h3 {
     font-family: 'Raleway', 'Tahoma', sans-serif;
     color: #F7F0F0;
@@ -97,6 +119,81 @@ h3 {
 
 p {
     color: #F7F0F0;
-    padding: 0.5em;
+    padding: 0.25rem;
     text-align: center;
 }
+
+/* ----Footer----- */
+footer div p a {
+    margin-left: auto;
+    margin-right: auto;
+    color: #F7F0F0;
+    cursor: pointer;
+    padding-bottom: 0.5rem;
+}
+
+footer figure img {
+    padding: 0.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer form.contact-form {
+    margin-left: 4rem;
+}
+
+form.contact-form fieldset {
+    margin: 1rem;
+    border: 3px solid #F7F0F0;
+    box-shadow: 5px 5px 8px black;
+    padding: 0.5rem 2%;
+    background-color: #6B0504;
+    max-width: 18rem;
+}
+
+form.contact-form legend {
+    color: #F7F0F0;
+    margin: 0 1rem;
+    padding: 0.5rem;
+    font-weight: bolder;
+}
+
+form.contact-form  label.footer-form {
+    display: block;
+    padding-top: 1rem;
+    color: #F7F0F0;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+form.contact-form label.footer-form input, form.contact-form textarea {
+    display: block;
+    font-size: 1rem;
+    border: 3px solid #273654;
+    padding: 0.75rem;
+    width: 100%;
+    max-width: 15rem;
+    background-color: #F7F0F0;
+}
+
+form.contact-form input.submitButton {
+    border: 3px solid #F7F0F0;
+    background-color: #273654;
+    color: #F7F0F0;
+    font-weight: bold;
+    border-radius: 1rem;
+    padding: 0.8rem;
+    margin: 1rem;
+    margin-left: 1.5rem;
+    width: 100%;
+    max-width: 10rem;
+}
+
+form.contact-form label.footer-form input:required {
+    border-left: solid 6px #6CA6C1;
+}
+
+form label.top input:required:valid {
+    border-left: solid 6px #273654;
+}
+
