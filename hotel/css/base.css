@@ -124,22 +124,19 @@ p {
 }
 
 /* ----Footer----- */
-footer div p a {
-    margin-left: auto;
-    margin-right: auto;
+div.footer-top-section div p a, footer p a {
     color: #F7F0F0;
     cursor: pointer;
-    padding-bottom: 0.5rem;
 }
 
-footer figure img {
+div.footer-top-section figure img {
     padding: 0.5rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-footer form.contact-form {
-    margin-left: 4rem;
+div.footer-top-section form.contact-form {
+    margin-left: 1rem;
 }
 
 form.contact-form fieldset {
@@ -148,7 +145,7 @@ form.contact-form fieldset {
     box-shadow: 5px 5px 8px black;
     padding: 0.5rem 2%;
     background-color: #6B0504;
-    max-width: 18rem;
+    max-width: 25rem;
 }
 
 form.contact-form legend {
@@ -171,8 +168,8 @@ form.contact-form label.footer-form input, form.contact-form textarea {
     font-size: 1rem;
     border: 3px solid #273654;
     padding: 0.75rem;
-    width: 100%;
-    max-width: 15rem;
+    width: 90%;
+    max-width: 20rem;
     background-color: #F7F0F0;
 }
 
@@ -193,7 +190,7 @@ form.contact-form label.footer-form input:required {
     border-left: solid 6px #6CA6C1;
 }
 
-form label.top input:required:valid {
+form.contact-form label.footer-from input:required:valid {
     border-left: solid 6px #273654;
 }
 

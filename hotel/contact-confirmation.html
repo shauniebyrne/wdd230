@@ -48,25 +48,27 @@
 
     </main>
     <footer>
-        <div>
-            <h3>Tempel Inn & Suites Headquarters</h3>
-            <p>4800 Montgomery Ln, #300</p>
-            <p>Bethesda, MD  20814</p>
-            <p><a target="blank" href="https://goo.gl/maps/5jr4eVoYHn5Zs8XS6">Location Map</a></p>
+        <div class="footer-top-section">
+            <section>
+                <h3>Tempel Inn & Suites Headquarters</h3>
+                <p>4800 Montgomery Ln, #300</p>
+                <p>Bethesda, MD  20814</p>
+                <p><a target="blank" href="https://goo.gl/maps/5jr4eVoYHn5Zs8XS6">Location Map</a></p>
+            </section>
+            <figure>
+                <img src="images/logo.png" alt="Temple Inn & Suites Logo">
+            </figure>
+            <form method="get" action="contact-confirmation.html" class="contact-form">
+                <fieldset>
+                    <legend>Contact Us</legend>
+                    <label class="footer-form">Name: * <input type="text" name="name" placeholder="John Doe" required></label>
+                    <label class="footer-form">Email: * <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <label class="footer-form" for="comment">Comment: *</label>
+                    <textarea name="comment" id="comment" cols="30" rows="5"></textarea>
+                    <input type="submit" class="submitButton" value="Send Comment">
+                </fieldset>  
+            </form>
         </div>
-        <figure>
-            <img src="images/logo.png" alt="Temple Inn & Suites Logo">
-        </figure>
-        <form method="get" action="contact-confirmation.html" class="contact-form">
-            <fieldset>
-                <legend>Contact Us</legend>
-                <label class="footer-form">Name: * <input type="text" name="name" placeholder="John Doe" required></label>
-                <label class="footer-form">Email: * <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                <label class="footer-form" for="comment">Comment: *</label>
-                <textarea name="comment" id="comment" cols="30" rows="5"></textarea>
-                <input type="submit" class="submitButton" value="Send Comment">
-            </fieldset>  
-        </form>
         <p>&copy; <span id="year"></span> .:|:. Shauntal Byrne .:|:. BYUI Project .:|:. Last Updated: <span id="changes-date"></span></p>
         <p><a href="resource.html">Resources Used For This Site</a></p>  
     </footer>  
