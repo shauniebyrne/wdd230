@@ -13,9 +13,10 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <script defer src="js/dates.js"></script>
+    <script defer src="js/hamburgerbtn.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Red+Hat+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla&family=Raleway:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -23,13 +24,12 @@
             <img src="images/logo.png" alt="Temple Inn & Suites Logo">
         </figure>
         <nav>
-            <ul>
+            <ul class="navigation">
+                <li><a href="#" id="hamburger-btn">&#9776;</a></li>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="temple.html">Temple</a></li>
                 <li><a href="reservations.html">Reservations</a></li>
                 <li><a href="services.html">Services</a></li>
-                <li><a href="receptions.html">Reception</a></li>
-                <li><a href="missionary.html">Full-Time Temple Missionary</a></li>
             </ul>
         </nav>
         <div class="social">
@@ -48,11 +48,24 @@
 
     </main>
     <footer>
-
+        <div>
+            <h3>Tempel Inn & Suites Headquarters</h3>
+            <p>4800 Montgomery Ln, #300</p>
+            <p>Bethesda, MD  20814</p>
+            <a target="blank" href="https://goo.gl/maps/5jr4eVoYHn5Zs8XS6">Location Map</a>
+        </div>
         <figure>
             <img src="images/logo.png" alt="Temple Inn & Suites Logo">
         </figure>
-        <form action=""></form>
+        <form method="get" action="contact-confirmation.html">
+            <fieldset>
+                <legend>Contact Us</legend>
+                <label class="footer-form">Name: * <input type="text" name="name" placeholder="John Doe" required></label>
+                <label class="footer-form">Email: * <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="footer-form" for="comment">Comment: *</label>
+                <textarea name="comment" id="comment" cols="30" rows="10" required></textarea>
+            </fieldset>
+        </form>
         <p>&copy; <span id="year"></span> .:|:. Shauntal Byrne .:|:. BYUI Project .:|:. Last Updated: <span id="changes-date"></span></p> 
     </footer>  
 </body>
