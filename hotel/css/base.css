@@ -28,13 +28,13 @@ header, footer {
 }
 
 /* ----Header---- */
-header {
+div.header-top-section {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-header figure img{
+div.header-top-section figure img{
     width: 100%;
     max-width: 150px;
     padding: 0.5rem;
@@ -106,7 +106,7 @@ h1, h2, h3 {
 
 h1 {
     font-size: 2.5em;
-    color: #273654;
+    color: #273654
 }
 
 h2 {
