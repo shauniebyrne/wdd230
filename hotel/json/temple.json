@@ -1,0 +1,112 @@
+{
+    "temples" : [
+        {
+          "name": "Asuncion Paraguay Temple",
+          "address": "Avda Brasilia Esquina Avda Espana, Asuncion, Paraguay",
+          "telephone": "(595) 21-216-9200",
+          "email": "asunctionparaguaytemple@hurchofjesuschrist.org",
+          "services": "Patron housing available and Distribution center is nearby (no clothing rentals)",
+          "history": "Announced: April 2,2000; Groundbreaking: Feb.3,2001; Dedicated: May 19,2002; Rededicated: Nov.3,2019",
+          "ordinanceschedule": "Available by appointment only. Click the Appointments button on the Church Temple Website to schedule an appointment.",
+          "sessionschedule": "Every hour on the hour. Available by appoinment only. Click the Appointments button on the Church Temple Website to schedule an appointment.",
+          "closureschedule": "2022: April 2, April 3, April 18-30, Oct.4, Oct.2, Oct.17-Dec.26, Dec.31, Jan.1 2023",
+          "img": "https://assets.ldscdn.org/17/85/17851385f82ac81d8ab740054774a8c65e8d8f56/asuncion_paraguay_temple.jpeg"
+        },
+        {
+            "name": "Bern Switzerland Temple",
+            "address": "Templestrasse 2, CH-3052 Zollikofen, Switzerland",
+            "telephone": "{41) 31-915-5252",
+            "email": "bernswitzerlandtemple@churchofjesuschrist.org",
+            "services": "Clothing rentals, Patron housing, and Distribution center nearby.",
+            "history": "Announced: July 1,1952; Groundbreaking: Aug.5,1953; Dedicated: Sept.11,1955; Rededicated: Oct.23,1992 ",
+            "ordinanceschedule": "Available by appointment only. Click the Appointments button on the Church Temple Website to schedule an appointment.",
+            "sessionschedule": "Every hour on the hour. Available by appoinment only. Click the Appointments button on the Church Temple Website to schedule an appointment.",
+            "closureschedule": "2022: June 13-27, Dec.24, Dec.31",
+            "img": "https://assets.ldscdn.org/1c/ba/1cba5472a1531680c6019915f5c62728a072eecd/bern_switzerland_temple_lds.jpeg"
+        },
+        {
+            "name": "Calgary Alberta Temple",
+            "address": "9802 Rocky Ridge Road NW, Calgary, ALberta, Canada T3G 5J7",
+            "telephone": "1 (403) 241-4250",
+            "email": "calgaryalbertatemple@churchofjesuschrist.org",
+            "services": "Distribution center nearby (no clothing rental)",
+            "history": "Announced: Oct.4,2008; Groundbreaking: May 15,2010; Dedicated: Oct.28,2012",
+            "ordinanceschedule": "Available by appointment only. Click the Appointments button on the Church Temple Website to schedule an appointment.",
+            "sessionschedule": "Every hour on the hour. Available by appoinment only. Click the Appointments button on the Church Temple Website to schedule an appointment.",
+            "closureschedule": "2022: April 2, July 1, Sept.5-19, Oct.1, Dec.24, Dec.31",
+            "img": "https://assets.ldscdn.org/59/38/59386046bcac81f5b6288301a15fe9948f597fa2/calgary_alberta_lds_temple.jpeg"
+        },
+        {
+            "name": "Cardston Alberta Temple",
+            "address": "348 3rd Street W, Cardston, Alberta, Canada T0K 0K0",
+            "telephone": "1 (403) 653-3552",
+            "email": "cardstonalbertatemple@churchofjesuschrist.org",
+            "services": "Clothing rental and Distribution center nearby",
+            "history": "Announced: June 27,1913; Groundbreaking: July 27,1913; Dedicated: Aug.26,1923; Rededicated: July 2,1962; Rededicated: June 22,1991",
+            "ordinanceschedule": "Available by appointment only. Click the Appointments button on the Church Temple Website to schedule an appointment.",
+            "sessionschedule": "Every hour on the hour. Available by appoinment only. Click the Appointments button on the Church Temple Website to schedule an appointment.",
+            "closureschedule": "2022: April 2, July 1, Sept.19-Oct.3, Nov.11, Dec.24-27, Dec.31",
+            "img": "https://assets.ldscdn.org/96/54/96541955353e5ec16ef5fa42948d90057d90f031/cardston_alberta_temple_lds.jpeg"
+        },
+        {
+            "name": "Durban South Africa Temple",
+            "address": "2 Izinga Drive, Izinga Ridge, Umhlanga, KwaZulu-Natal, 4021, South Africa",
+            "telephone": "(27) 31-140-0240",
+            "email": "durbansouthafricatemple@churchofjesuschrist.org",
+            "services": "Distribution center nearby (no clothing rental)",
+            "history": "Announced: Oct.1,2011; Groundbreaking: April 9,2016; Dedicated: Feb.16,2020",
+            "ordinanceschedule": "Available by appointment only. Click the Appointments button on the Church Temple Website to schedule an appointment.",
+            "sessionschedule": "Every hour on the hour. Available by appoinment only. Click the Appointments button on the Church Temple Website to schedule an appointment.",
+            "closureschedule": "2022: April 15, April 27, June 16, Aug.1-15, Sept.24, Dec.16, Dec.24, Dec.31",
+            "img": "https://assets.ldscdn.org/f7/46/f74699c40162a453ad29e2a7cc759681b646663a/durban_south_africa_temple_exterior.png"
+        },
+        {
+            "name": "Frankfurt Germany Temple",
+            "address": "Talstrasse 10, 61381 Friedrichsdorf/TS, Germany",
+            "telephone": "(49) 6172-59000",
+            "email": "frankfurtgermanytemple@churchofjesuschrist.org",
+            "services": "Clothing rental and Distribution center nearby",
+            "history": "Announced: April 1,1981; Groundbreaking: July 1,1985; Dedicated: Aug.28,1987; Rededicated: Oct.20,2019",
+            "ordinanceschedule": "Available by appointment only. Click the Appointments button on the Church Temple Website to schedule an appointment.",
+            "sessionschedule": "Every hour on the hour. Available by appoinment only. Click the Appointments button on the Church Temple Website to schedule an appointment.",
+            "closureschedule": "2022: April 25, Sept.19-Oct.3, Dec.24-Jan.3 2023",
+            "img": "https://assets.ldscdn.org/03/63/0363b2a15ea0a5b0aa803c5eb5e6c54c1baca7c0/frankfurt_germany_temple.jpeg"
+        },
+        {
+            "name": "Gilbert Arizona Temple",
+            "address": "3301 S Greenfield Road, Gilbert, Arizona, United States 85297",
+            "telephone": "1 (480) 822-5000",
+            "email": "gilbertarizonatemple@churchofjesuschrist.org",
+            "services": "Clothing rental and Distribution center",
+            "history": "Announced: April 10,2008; Groundbreaking: Nov.13,2010; Dedicated: March 2,2014",
+            "ordinanceschedule": "Available by appointment only. Click the Appointments button on the Church Temple Website to schedule an appointment.",
+            "sessionschedule": "Every hour on the hour. Available by appoinment only. Click the Appointments button on the Church Temple Website to schedule an appointment.",
+            "closureschedule": "2022: March 28-April 11, Oct.1, Oct.3-17, Nov.23, Nov.24, Dec.24, Dec.31",
+            "img": "https://assets.ldscdn.org/ea/89/ea8995e6080158ce4df06391f2455c5c7f6626e9/gilbert_arizona_temple.jpeg"
+        },
+        {
+            "name": "Mesa Arizona Temple",
+            "address": "101 S LeSueur, Mesa, Arizona, United States 85204-1031",
+            "telephone": "1 (480) 833-1211",
+            "email": "mesaarizonatemple@churchofjesuschrist.org",
+            "services": "Clothing Rental and Distribution center nearby",
+            "history": "Announced: Oct.1,1919; Groundbreaking: April 25,1922; Dedicated: Oct.23,1927; Rededicated: April 15,1975; Rededicated: Dec.12,2021",
+            "ordinanceschedule": "Available by appointment only. Click the Appointments button on the Church Temple Website to schedule an appointment.",
+            "sessionschedule": "Every hour on the hour. Available by appoinment only. Click the Appointments button on the Church Temple Website to schedule an appointment.",
+            "closureschedule": "2022: April 2, April 5-16, July 18-Aug.1, Oct.1, Nov.23, Nov.24, Dec.24",
+            "img": "https://assets.ldscdn.org/f2/21/f221327af91cdec4d6cab18bc1a6fb94b3c83959/mesa_temple_reflection.jpg"
+        },
+        {
+            "name": "Preston England Temple",
+            "address": "Temple Way, Hartwood Green Chorley, Lancashire, England, United Kingdom PR6 7EQ",
+            "telephone": "(44) 1257-226-100",
+            "email": "prestonenglandtemple@churchofjesuschrist.org",
+            "services": "Clothing rental, Patron housing, and a Distribution center nearby",
+            "history": "Announced: Oct.19,1992; Groundbreaking: June 12,1994; Dedicated: June 7,1998",
+            "ordinanceschedule": "Available by appointment only. Click the Appointments button on the Church Temple Website to schedule an appointment.",
+            "sessionschedule": "Every hour on the hour. Available by appoinment only. Click the Appointments button on the Church Temple Website to schedule an appointment.",
+            "closureschedule": "2022: April 2. June 2, June 3, Aug.1-15, Oct.1",
+            "img": "https://assets.ldscdn.org/01/99/0199d322eda94abc6fbd06824448db43715df1c8/preston_england_temple_lds.jpeg"
+        }     
+    ]
+}
