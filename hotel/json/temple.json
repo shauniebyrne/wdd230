@@ -58,7 +58,7 @@
             "ordinanceschedule": "Available by appointment only. Click the Appointments button on the Church Temple Website to schedule an appointment.",
             "sessionschedule": "Every hour on the hour. Available by appoinment only. Click the Appointments button on the Church Temple Website to schedule an appointment.",
             "closureschedule": "2022: April 15, April 27, June 16, Aug.1-15, Sept.24, Dec.16, Dec.24, Dec.31",
-            "img": "https://assets.ldscdn.org/f7/46/f74699c40162a453ad29e2a7cc759681b646663a/durban_south_africa_temple_exterior.png"
+            "img": "images/south_africa_temple.jpg"
         },
         {
             "name": "Frankfurt Germany Temple",
@@ -94,7 +94,7 @@
             "ordinanceschedule": "Available by appointment only. Click the Appointments button on the Church Temple Website to schedule an appointment.",
             "sessionschedule": "Every hour on the hour. Available by appoinment only. Click the Appointments button on the Church Temple Website to schedule an appointment.",
             "closureschedule": "2022: April 2, April 5-16, July 18-Aug.1, Oct.1, Nov.23, Nov.24, Dec.24",
-            "img": "https://assets.ldscdn.org/f2/21/f221327af91cdec4d6cab18bc1a6fb94b3c83959/mesa_temple_reflection.jpg"
+            "img": "images/mesa_temple.jpg"
         },
         {
             "name": "Preston England Temple",
@@ -118,7 +118,7 @@
             "ordinanceschedule": "Available by appointment only. Click the Appointments button on the Church Temple Website to schedule an appointment.",
             "sessionschedule": "Every hour on the hour. Available by appoinment only. Click the Appointments button on the Church Temple Website to schedule an appointment.",
             "closureschedule": "2022: April 9, May 2-16, Oct.8, Oct.31-Nov.14, Dec.24, Dec.27",
-            "img": "https://assets.ldscdn.org/50/44/50448de4cf5e474789f3c262d6eac63e89c57486/sydney_australia_temple.jpg"
+            "img": "images/sydney_australia_temple.jpg"
         }    
     ]
 }
