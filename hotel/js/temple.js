@@ -24,6 +24,7 @@ function displayCards(card) {
     let p6 = document.createElement('p');
     let p7 = document.createElement('p');
     let p8 = document.createElement('p');
+    let button = document.createElement('button');
 
     // Add textContent to temple card
     h3.textContent = card.name;
@@ -35,6 +36,7 @@ function displayCards(card) {
     p6.textContent = `Ordinances Schedule: ${card.ordinanceschedule}`;
     p7.textContent = `Session Schedule: ${card.sessionschedule}`;
     p8.textContent = `Closure Schedule: ${card.closureschedule}`;
+    button.innerHTML = `&#9786;`
 
     // Add content to temple image
     templeImg.setAttribute('src', card.img);
@@ -42,7 +44,8 @@ function displayCards(card) {
     templeImg.setAttribute('loading', 'lazy');
     templeImg.setAttribute('width', '250');
 
-    // Add class to section for CSS
+    // Add class for CSS
+    button.classList.add('local-storage');
     section.classList.add('container');
 
     // Append children to section temple card
@@ -56,6 +59,7 @@ function displayCards(card) {
     section.appendChild(p6);
     section.appendChild(p7);
     section.appendChild(p8);
+    section.appendChild(button);
 
     // Append all into parent section
     container.appendChild(section);

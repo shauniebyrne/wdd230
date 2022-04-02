@@ -254,5 +254,21 @@ div.temple-cards section p {
     overflow-wrap: break-word;
 }
 
+div.temple-cards section button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3rem;
+    border: 3px solid #F7F0F0;
+    background-color: #273654;
+    color: #F7F0F0;
+    font-weight: bold;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+div.temple-cards section button:hover {
+    cursor: pointer;
+}
 
 
