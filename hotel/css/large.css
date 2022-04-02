@@ -23,4 +23,9 @@
     nav {
         position: unset;
     }
+
+    div.banner picture img {
+        width: 100%;
+        max-width: 1380px;
+    }
 }

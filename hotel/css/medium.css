@@ -5,4 +5,10 @@
         justify-content: center;
         flex-wrap: wrap;
     }
+
+    div.banner picture img {
+        width: 100%;
+        max-width: 960px;
+    }
+
 }

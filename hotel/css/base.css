@@ -138,6 +138,8 @@ div.banner picture img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
+    max-width: 520px;
 }
 
 div.banner form {
