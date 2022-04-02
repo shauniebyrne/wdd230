@@ -107,6 +107,18 @@
             "sessionschedule": "Every hour on the hour. Available by appoinment only. Click the Appointments button on the Church Temple Website to schedule an appointment.",
             "closureschedule": "2022: April 2. June 2, June 3, Aug.1-15, Oct.1",
             "img": "https://assets.ldscdn.org/01/99/0199d322eda94abc6fbd06824448db43715df1c8/preston_england_temple_lds.jpeg"
-        }     
+        },  
+        {
+            "name": "Sydney Australia Temple",
+            "address": "756 Pennant Hills Road, Corner Pennant Hills Road & Moseley Street, Carlingford, Australia NSW 2118",
+            "telephone": "(61) 2-9841-5471",
+            "email": "sydneyaustraliatemple@churchofjesuschrist.org",
+            "services": "Patron housing and Distribution center nearby (no clothing rental)",
+            "history": "Announced: April 2,1980; Groundbreaking: Aug.13,1982; Dedicated: Sept.20,1984",
+            "ordinanceschedule": "Available by appointment only. Click the Appointments button on the Church Temple Website to schedule an appointment.",
+            "sessionschedule": "Every hour on the hour. Available by appoinment only. Click the Appointments button on the Church Temple Website to schedule an appointment.",
+            "closureschedule": "2022: April 9, May 2-16, Oct.8, Oct.31-Nov.14, Dec.24, Dec.27",
+            "img": "https://assets.ldscdn.org/50/44/50448de4cf5e474789f3c262d6eac63e89c57486/sydney_australia_temple.jpg"
+        }    
     ]
 }

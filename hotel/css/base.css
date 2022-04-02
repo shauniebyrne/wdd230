@@ -239,3 +239,18 @@ form.contact-form label.footer-from input:required:valid {
     border-left: solid 6px #273654;
 }
 
+/* -----Temple Page------ */
+div.temple-cards section:hover {
+    box-shadow: 0 0 50px black;
+}
+
+div.temple-cards section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.temple-cards section p {
+    overflow-wrap: break-word;
+}
+
