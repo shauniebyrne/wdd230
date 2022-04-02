@@ -15,4 +15,12 @@
     .navigation li:first-child {
         display: none;
     }
+
+    div.header-top-section {
+        position: unset;
+    }
+
+    nav {
+        position: unset;
+    }
 }

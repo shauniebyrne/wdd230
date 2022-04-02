@@ -31,7 +31,8 @@ header, footer {
 div.header-top-section {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    position: relative;
 }
 
 div.header-top-section figure img{
@@ -54,6 +55,10 @@ nav {
     font-weight: bold;
     max-width: 500px;
     margin: 0 auto;
+    position: absolute;
+    top: 30px;
+    right: 200px;
+    z-index: 2;
 }
 
 nav ul {
@@ -122,6 +127,43 @@ p {
     color: #F7F0F0;
     padding: 0.25rem;
     text-align: center;
+}
+
+/* ----Banner---- */
+div.banner {
+    position: relative;
+}
+
+div.banner picture img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.banner form {
+    position: absolute;
+    bottom: 20px;
+    right: 45px;
+}
+
+div.banner form button {
+    border: 3px solid #F7F0F0;
+    background-color: #273654;
+    color: #F7F0F0;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    padding: 0.8rem;
+    width: 100%;
+    max-width: 15rem;
+}
+
+/* ----Main------ */
+section.container {
+    background-color: #6B0504;
+    box-shadow: 5px 5px 8px black;
+    margin: 0.5em;
+    border:3px solid #273654;
 }
 
 /* ----Footer----- */
