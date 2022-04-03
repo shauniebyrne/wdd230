@@ -192,6 +192,10 @@ section.weather {
     align-items: center;
 }
 
+div.home-layout section:nth-child(2) h1 {
+    color: #F7F0F0;
+    margin: 0;
+}
 
 /* ----Footer----- */
 div.footer-top-section div p a, footer p a {
