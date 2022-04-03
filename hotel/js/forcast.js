@@ -65,21 +65,32 @@ fetch(forcastApi)
         let day3hum = document.createElement('p');
         let day3ws = document.createElement('p');
 
+        // Calculate date for tomorrow
+        const currentDate = new Date(new Date().getTime() + 24 * 60 * 60 * 1000);
+        const currentDate2 = new Date(new Date().getTime() + (86400000) + (86400000))
+        const currentDate3 = new Date(new Date().getTime() + (86400000) + (86400000) + (86400000))
+        const day = currentDate.getDate();
+        const dayTwo = currentDate2.getDate();
+        const dayThree = currentDate3.getDate()
+        const month = currentDate.getMonth() + 1;
+        const year = currentDate.getFullYear()
+
+
         // Add content to all created elements
         // Day 1 (tomorrow)
-        heading1.textContent = "Tomorrow";
+        heading1.textContent = `${month}/${day}/${year}`;
         day1temp.innerHTML = `Temperature: ${temp1.toFixed()}&#8457;`;
         day1hum.textContent = `Humidity: ${humidity1}%`;
         day1ws.textContent = `Wind Speed: ${windSpeed1.toFixed()}m/h`;
 
         // Day 2 
-        heading2.textContent = "Day 2";
+        heading2.textContent = `${month}/${dayTwo}/${year}`;
         day2temp.innerHTML = `Temperature: ${temp2.toFixed()}&#8457;`;
         day2hum.textContent = `Humidity: ${humidity2}%`;
         day2ws.textContent = `Wind Speed: ${windSpeed2.toFixed()}m/h`; 
 
         // Day 3
-        heading3.textContent = "Day 3";
+        heading3.textContent = `${month}/${dayThree}/${year}`;
         day3temp.innerHTML = `Temperature: ${temp3.toFixed()}&#8457;`;
         day3hum.textContent = `Humidity: ${humidity3}%`;
         day3ws.textContent = `Wind Speed: ${windSpeed3.toFixed()}m/h`;

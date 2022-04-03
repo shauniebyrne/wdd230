@@ -21,12 +21,14 @@ function displayTempleCard(tCard) {
         let telephone = document.createElement('p');
         let email = document.createElement('p');
         let image = document.createElement('img');
+        let closures = document.createElement('p');
 
         // Add content to elements
         name.textContent = tCard.name;
         address.textContent = tCard.address;
         telephone.textContent = tCard.telephone;
         email.textContent = tCard.email;
+        closures.textContent = `Temple Closures: ${tCard.closureschedule}`;
 
         // Add image content
         image.setAttribute('src', tCard.img);
@@ -40,5 +42,6 @@ function displayTempleCard(tCard) {
         spotlight.appendChild(address);
         spotlight.appendChild(telephone);
         spotlight.appendChild(email);
+        spotlight.appendChild(closures);
     };
 }
