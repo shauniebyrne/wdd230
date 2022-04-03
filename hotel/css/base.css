@@ -186,7 +186,7 @@ section.spotlight-temple img, section.spotlight-hotel img {
     margin-right: auto;
 }
 
-section section.weather {
+section.weather {
     display: flex;
     justify-content: center;
     align-items: center;
