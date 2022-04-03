@@ -15,6 +15,8 @@
     <script defer src="js/dates.js"></script>
     <script defer src="js/hamburgerbtn.js"></script>
     <script defer src="js/spotlight.js"></script>
+    <script defer src="js/weather.js"></script>
+    <script defer src="js/forcast.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Karla&family=Raleway:wght@700&display=swap" rel="stylesheet">
@@ -46,7 +48,7 @@
                 </a>
             </div>
         </div>
-        <!-- Saved for alerts-->
+        <div id="alerts"></div>
     </header>
     <main>
         <div class="banner">
@@ -82,10 +84,11 @@
                 <img id="current-cond-img" src="#" alt="#">
             </section>
             <h3>Temperature: <span id="temp"></span>&#8457;</h3>
-            <h3>Humidity: <span id="humidity"></span></h3>
+            <h3>Humidity: <span id="humidity"></span>%</h3>
         </section>
         <section class="container">
-            <h3>Three Day Forcast</h3>
+            <h3> &#9728; Three Day Forcast &#9729;</h3>
+            <section class="forcast"></section>
         </section>
     </main>
     <footer>
