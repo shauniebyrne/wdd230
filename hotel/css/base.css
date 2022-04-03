@@ -149,7 +149,7 @@ div.banner picture img {
 div.banner form {
     position: absolute;
     bottom: 20px;
-    right: 45px;
+    right: 20px;
 }
 
 div.banner form button {
@@ -337,7 +337,7 @@ form.r-for label.diff input {
     display: block;
     border: 3px solid #273654;
     padding: 0.75rem;
-    width: 100%;
+    width: 90%;
     max-width: 22rem;
     background-color: #F7F0F0;
 }
@@ -367,3 +367,15 @@ form.r-form label.same input:required:valid {
     border-left: solid 6px #273654;
 }
 
+/* ---- Services Page ---- */
+div.banner form#rec-btn {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+div.banner form#mis-btn {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}

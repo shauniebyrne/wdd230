@@ -64,5 +64,19 @@
     max-width: 38rem;
     }
 
+    /* ---- Services Page ---- */
+    div.banner form {
+        bottom: 20px;
+        right: 150px;
+    }
 
+    div.banner form#rec-btn {
+        top: 20px;
+        left: 650px;
+    }
+    
+    div.banner form#mis-btn {
+        bottom: 20px;
+        left: 150px;
+    }
 }
