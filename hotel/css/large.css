@@ -58,4 +58,11 @@
         margin-right: auto;
     }
 
+    /* ---- Reservation Page ---- */
+    form.r-form label.same input, form.r-form textarea, 
+    form.r-for label.diff input {
+    max-width: 38rem;
+    }
+
+
 }

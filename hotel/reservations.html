@@ -50,13 +50,13 @@
     </header>
     <main>
         <h1>Make Your Reservation Today</h1>
-        <form method="get" action="reservation-confirmation.html">
+        <form method="get" action="reservation-confirmation.html" class="r-form">
             <fieldset>
                 <legend>Personal Information</legend>
                 <label class="same">Full Name: * <input type="text" name="fullname" placeholder="John Doe" required></label>
                 <label class="same">Email: * <input type="email" name="email" placeholder="someone@gmail.com" required></label>
                 <label class="same">Phone Number: <input type="tel" name="phone"></label>
-                <label class="same">Home State or Country: * <input type="text" name="country" required pattern="[A-Za-z]"></label>
+                <label class="same">Home State or Country: * <input type="text" name="country" required></label>
             </fieldset>
             <fieldset>
                 <legend>Reservation Information</legend>
@@ -72,8 +72,8 @@
                 <label class="same" for="accommodations">Accommodations/Comments:</label>
                 <textarea name="accommodations" id="accommodations" cols="30" rows="10"></textarea>
             </fieldset>
+            <input type="submit" class="submitBtn" value="Reserve">
         </form>
-
     </main>
     <footer>
         <div class="footer-top-section">

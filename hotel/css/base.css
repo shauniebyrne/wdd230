@@ -219,7 +219,6 @@ form.contact-form fieldset {
     box-shadow: 5px 5px 8px black;
     padding: 0.5rem 2%;
     background-color: #6B0504;
-    max-width: 25rem;
 }
 
 form.contact-form legend {
@@ -227,6 +226,7 @@ form.contact-form legend {
     margin: 0 1rem;
     padding: 0.5rem;
     font-weight: bolder;
+    font-size: 1.25rem;
 }
 
 form.contact-form  label.footer-form {
@@ -239,7 +239,6 @@ form.contact-form  label.footer-form {
 
 form.contact-form label.footer-form input, form.contact-form textarea {
     display: block;
-    font-size: 1rem;
     border: 3px solid #273654;
     padding: 0.75rem;
     width: 90%;
@@ -300,4 +299,71 @@ div.temple-cards section button:hover {
     cursor: pointer;
 }
 
+/* ----Reservation Page---- */
+
+form.r-form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 45rem;
+}
+
+form.r-form fieldset {
+    margin: 1rem;
+    border: 3px solid #273654;
+    box-shadow: 5px 5px 8px black;
+    padding: 0.5rem 2%;
+    background-color: #6B0504;
+}
+
+form.r-form legend {
+    color: #F7F0F0;
+    margin: 0 1rem;
+    padding: 0.5rem;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+form.r-form  label.same, form.r-form label.diff {
+    display: block;
+    padding-top: 1rem;
+    color: #F7F0F0;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+form.r-form label.same input, form.r-form textarea, 
+form.r-for label.diff input {
+    display: block;
+    border: 3px solid #273654;
+    padding: 0.75rem;
+    width: 100%;
+    max-width: 22rem;
+    background-color: #F7F0F0;
+}
+
+form.r-form label.diff {
+    padding-left: 0.75rem;
+}
+
+form.r-form input.submitBtn {
+    border: 3px solid #F7F0F0;
+    background-color: #273654;
+    color: #F7F0F0;
+    font-weight: bold;
+    border-radius: 1rem;
+    padding: 0.8rem;
+    margin: 1rem;
+    margin-left: 1.5rem;
+    width: 100%;
+    max-width: 10rem;
+}
+
+form.r-form label.same input:required {
+    border-left: solid 6px #6CA6C1;
+}
+
+form.r-form label.same input:required:valid {
+    border-left: solid 6px #273654;
+}
 
