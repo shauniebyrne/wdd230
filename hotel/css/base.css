@@ -379,3 +379,13 @@ div.banner form#mis-btn {
     bottom: 5px;
     left: 5px;
 }
+
+div.services-layout section ul {
+    list-style-position: inside;
+    color: #F7F0F0;
+    padding: 00.5rem;
+}
+
+div.services-layout section ul li {
+    padding: 0.5rem;
+}
