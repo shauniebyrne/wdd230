@@ -11,6 +11,12 @@
         max-width: 960px;
     }
 
+    div.banner form button {
+        font-size: 1.5rem;
+        width: 100%;
+        max-width: 15rem;
+    }
+
     div.home-layout {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -51,5 +57,16 @@
     div.services-layout {
         display: flex;
         justify-content: center;
+        align-items: center;
+    }
+
+    div.banner form#rec-btn {
+        top: 10px;
+        left: 10px;
+    }
+    
+    div.banner form#mis-btn {
+        bottom: 10px;
+        left: 10px;
     }
 }

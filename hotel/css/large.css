@@ -79,4 +79,15 @@
         bottom: 20px;
         left: 150px;
     }
+    
+    div.service-buttons {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    div.service-buttons form button {
+        font-size: 3rem;
+        max-width: 35rem;
+    }
 }

@@ -157,11 +157,11 @@ div.banner form button {
     background-color: #273654;
     color: #F7F0F0;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1rem;
     border-radius: 1rem;
-    padding: 0.8rem;
+    padding: 0.5rem;
     width: 100%;
-    max-width: 15rem;
+    max-width: 9rem;
 }
 
 /* ----Under Banner------ */
@@ -371,13 +371,13 @@ form.r-form label.same input:required:valid {
 /* ---- Services Page ---- */
 div.banner form#rec-btn {
     position: absolute;
-    top: 5px;
+    top: 0;
     left: 5px;
 }
 
 div.banner form#mis-btn {
     position: absolute;
-    bottom: 5px;
+    bottom: 0;
     left: 5px;
 }
 
@@ -389,4 +389,21 @@ div.services-layout section ul {
 
 div.services-layout section ul li {
     padding: 0.5rem;
+}
+
+div.service-buttons form{
+    margin-left: 2.5rem;
+    padding: 0.5rem;
+}
+
+div.service-buttons form button{
+    border: 3px solid #F7F0F0;
+    background-color: #273654;
+    color: #F7F0F0;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 25rem;
 }
