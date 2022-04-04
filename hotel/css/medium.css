@@ -69,4 +69,15 @@
         bottom: 10px;
         left: 10px;
     }
+
+    /* ---- Receptions Page ---- */
+    div.rec-photos, div.rec-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    div.rec-photos {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    }
 }

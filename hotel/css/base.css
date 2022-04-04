@@ -172,6 +172,14 @@ section.container {
     border:3px solid #273654;
 }
 
+section.container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #F7F0F0;
+    box-shadow: 5px 5px 8px black;
+}
+
 section.spotlight-temple, section.spotlight-hotel,
 section.forcast section {
     background-color: #273654;
@@ -384,7 +392,7 @@ div.banner form#mis-btn {
 div.services-layout section ul {
     list-style-position: inside;
     color: #F7F0F0;
-    padding: 00.5rem;
+    padding: 0.5rem;
 }
 
 div.services-layout section ul li {
@@ -406,4 +414,45 @@ div.service-buttons form button{
     padding: 0.5rem;
     width: 100%;
     max-width: 25rem;
+}
+
+/* ---- Reception Page ---- */
+div.rec-photos {
+    background-color: #6B0504;
+    box-shadow: 5px 5px 8px black;
+    margin: 0.5em;
+    border:3px solid #273654;
+}
+
+div.rec-photos figure {
+    padding: 0.5rem;
+    background-color: #273654;
+    box-shadow: 5px 5px 8px black;
+    margin: 0.5em;
+    border:3px solid #6CA6C1;
+}
+
+div.rec-photos figure img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #F7F0F0;
+    box-shadow: 5px 5px 8px black;
+}
+
+div.rec-photos figure figcaption {
+    color: #F7F0F0;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+div.rec-list section ul {
+    list-style-position: inside;
+    color: #F7F0F0;
+    padding: 00.5rem;
+}
+
+div.rec-list section ul li {
+    padding: 0.5rem;
 }
