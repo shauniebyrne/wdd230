@@ -162,6 +162,7 @@ div.banner form button {
     padding: 0.5rem;
     width: 100%;
     max-width: 9rem;
+    cursor: pointer;
 }
 
 /* ----Under Banner------ */
@@ -263,6 +264,7 @@ form.contact-form input.submitButton {
     margin-left: 1.5rem;
     width: 100%;
     max-width: 10rem;
+    cursor: pointer;
 }
 
 form.contact-form label.footer-form input:required {
@@ -299,9 +301,6 @@ div.temple-cards section button {
     font-weight: bold;
     border-radius: 1rem;
     margin-bottom: 0.5rem;
-}
-
-div.temple-cards section button:hover {
     cursor: pointer;
 }
 
@@ -364,6 +363,7 @@ form.r-form input.submitBtn {
     margin-left: 1.5rem;
     width: 100%;
     max-width: 10rem;
+    cursor: pointer;
 }
 
 form.r-form label.same input:required {
@@ -412,6 +412,7 @@ div.service-buttons form button{
     padding: 0.5rem;
     width: 100%;
     max-width: 25rem;
+    cursor: pointer;
 }
 
 /* ---- Reception Page ---- */
