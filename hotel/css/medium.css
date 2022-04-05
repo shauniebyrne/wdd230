@@ -40,6 +40,15 @@
         margin-top: 5rem;
     }
 
+    /* weather title change */
+section.resizing h3:nth-child(1){
+    margin-top: 3rem;
+}
+
+section.resizing section.weather h3 {
+    margin-top: 0.5rem;
+}
+
     /* ---- Temple Page ---- */
     div.temple-cards {
         display: grid;
