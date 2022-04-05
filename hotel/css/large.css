@@ -90,4 +90,16 @@
         font-size: 3rem;
         max-width: 35rem;
     }
+
+    /* ---- Missionary Page ---- */
+    div.mis-layout {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+
+    form#mis-form {
+        margin: 0;
+    }
 }

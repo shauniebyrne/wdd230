@@ -75,7 +75,6 @@ fetch(forcastApi)
         const month = currentDate.getMonth() + 1;
         const year = currentDate.getFullYear()
 
-
         // Add content to all created elements
         // Day 1 (tomorrow)
         heading1.textContent = `${month}/${day}/${year}`;
@@ -119,6 +118,3 @@ fetch(forcastApi)
         forcast.appendChild(section2);
         forcast.appendChild(section3);
     })
-
-
-    //<section class="forcast"></section>

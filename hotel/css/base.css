@@ -417,14 +417,15 @@ div.service-buttons form button{
 }
 
 /* ---- Reception Page ---- */
-div.rec-photos {
+/* ---- Missionary Page ---- */
+div.rec-photos, div.mis-photos {
     background-color: #6B0504;
     box-shadow: 5px 5px 8px black;
     margin: 0.5em;
     border:3px solid #273654;
 }
 
-div.rec-photos figure {
+div.rec-photos figure, div.mis-photos figure {
     padding: 0.5rem;
     background-color: #273654;
     box-shadow: 5px 5px 8px black;
@@ -432,7 +433,7 @@ div.rec-photos figure {
     border:3px solid #6CA6C1;
 }
 
-div.rec-photos figure img{
+div.rec-photos figure img, div.mis-photos figure img{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -440,19 +441,28 @@ div.rec-photos figure img{
     box-shadow: 5px 5px 8px black;
 }
 
-div.rec-photos figure figcaption {
+div.rec-photos figure figcaption, div.mis-photos figure figcaption {
     color: #F7F0F0;
     font-size: 1.5rem;
     padding: 0.5rem;
     text-align: center;
 }
 
-div.rec-list section ul {
+div.rec-list section ul, section.mis-list ul {
     list-style-position: inside;
     color: #F7F0F0;
-    padding: 00.5rem;
+    padding: 0.5rem;
 }
 
-div.rec-list section ul li {
+div.rec-list section ul li, section.mis-list ul li {
     padding: 0.5rem;
+}
+
+/* ---- Missionary Page ---- */
+
+form.r-form input#misBtn {
+    max-width: 15rem;
+    margin: 0.25rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
 }

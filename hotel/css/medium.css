@@ -49,7 +49,7 @@
     /* ---- Reservations Page ---- */
     form.r-form label.same input, form.r-form textarea, 
     form.r-for label.diff input {
-        width: 100%;
+        width: 95%;
         max-width: 30rem;
     }
 
@@ -71,12 +71,13 @@
     }
 
     /* ---- Receptions Page ---- */
-    div.rec-photos, div.rec-list {
+    /* ---- Missionary Page ---- */
+    div.rec-photos, div.mis-photos {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
 
-    div.rec-photos {
+    div.rec-list {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     }

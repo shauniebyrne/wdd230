@@ -30,10 +30,10 @@ function displayCards(card) {
     h3.textContent = card.name;
     p1.textContent = card.address;
     p2.textContent = card.telephone;
-    p3.textContent = card.email;
+    p3.textContent = `Email: ${card.email}`;
     p4.textContent = `Services: ${card.services}`;
     p5.textContent = `History: ${card.history}`;
-    p6.textContent = `Ordinances Schedule: ${card.ordinanceschedule}`;
+    p6.textContent = `Ordinance Schedule: ${card.ordinanceschedule}`;
     p7.textContent = `Session Schedule: ${card.sessionschedule}`;
     p8.textContent = `Closure Schedule: ${card.closureschedule}`;
     button.innerHTML = `&#9786;`
