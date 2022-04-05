@@ -377,13 +377,13 @@ form.r-form label.same input:required:valid {
 /* ---- Services Page ---- */
 div.banner form#rec-btn {
     position: absolute;
-    top: 0;
+    top: 5px;
     left: 5px;
 }
 
 div.banner form#mis-btn {
     position: absolute;
-    bottom: 0;
+    bottom: 5px;
     left: 5px;
 }
 
