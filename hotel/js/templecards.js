@@ -9,6 +9,21 @@ fetch(templeURL)
         const templecards = jsonObject['temples'];
 
         templecards.forEach(displayCards);
+    })
+    .then(function (button) {
+        if (button.innerHTML === "&#9733;") {
+            const likeBtn = document.querySelector('.local-storage');
+            let likedStorage = window.localStorage.getItem('liked-temple');
+
+            function buttonChanged () {
+                likeBtn.innerHTML = "&#9733;";
+            }
+
+            likeBtn.addEventListener('click', buttonChanged);
+
+            // Store clicked button in localstorage
+            localStorage.setItem('liked-temple', likeBtn);
+        }
     });
 
 function displayCards(card) {
@@ -63,4 +78,12 @@ function displayCards(card) {
 
     // Append all into parent section
     container.appendChild(section);
+
+    //Function to change button on click
+    function buttonChanged () {
+        button.innerHTML = "&#9733;";
+    }
+
+    // Add Event Listener to button
+    button.addEventListener('click', buttonChanged);
 }
