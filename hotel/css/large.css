@@ -68,7 +68,7 @@
     /* ---- Services Page ---- */
     div.banner form {
         bottom: 20px;
-        right: 150px;
+        right: 350px;
     }
 
     div.banner form#rec-btn {
@@ -78,7 +78,7 @@
     
     div.banner form#mis-btn {
         bottom: 20px;
-        left: 150px;
+        left: 350px;
     }
     
     div.service-buttons {
