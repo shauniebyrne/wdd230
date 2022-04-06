@@ -51,6 +51,7 @@
         grid-area: 2 / 1 / 3 / 2;
     }
 
+    /* weather block */
     section.resizing {
         max-width: 32rem;
         display: block;

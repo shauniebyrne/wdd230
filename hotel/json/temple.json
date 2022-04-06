@@ -10,7 +10,7 @@
           "ordinanceschedule": "Available by appointment only. Click the Appointments button on the Church Temple Website to schedule an appointment.",
           "sessionschedule": "Every hour on the hour. Available by appoinment only. Click the Appointments button on the Church Temple Website to schedule an appointment.",
           "closureschedule": "2022: April 2, April 3, April 18-30, Oct.4, Oct.2, Oct.17-Dec.26, Dec.31, Jan.1 2023",
-          "img": "https://assets.ldscdn.org/17/85/17851385f82ac81d8ab740054774a8c65e8d8f56/asuncion_paraguay_temple.jpeg"
+          "img": "images/asuncion_paraguay_temple.jpg"
         },
         {
             "name": "Bern Switzerland Temple",
@@ -22,7 +22,7 @@
             "ordinanceschedule": "Available by appointment only. Click the Appointments button on the Church Temple Website to schedule an appointment.",
             "sessionschedule": "Every hour on the hour. Available by appoinment only. Click the Appointments button on the Church Temple Website to schedule an appointment.",
             "closureschedule": "2022: June 13-27, Dec.24, Dec.31",
-            "img": "https://assets.ldscdn.org/1c/ba/1cba5472a1531680c6019915f5c62728a072eecd/bern_switzerland_temple_lds.jpeg"
+            "img": "images/bern_switzerland_temple.jpg"
         },
         {
             "name": "Calgary Alberta Temple",
@@ -70,7 +70,7 @@
             "ordinanceschedule": "Available by appointment only. Click the Appointments button on the Church Temple Website to schedule an appointment.",
             "sessionschedule": "Every hour on the hour. Available by appoinment only. Click the Appointments button on the Church Temple Website to schedule an appointment.",
             "closureschedule": "2022: April 25, Sept.19-Oct.3, Dec.24-Jan.3 2023",
-            "img": "https://assets.ldscdn.org/03/63/0363b2a15ea0a5b0aa803c5eb5e6c54c1baca7c0/frankfurt_germany_temple.jpeg"
+            "img": "images/frankfurt_germany_temple.jpg"
         },
         {
             "name": "Gilbert Arizona Temple",
