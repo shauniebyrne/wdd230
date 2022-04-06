@@ -1,25 +1,39 @@
 const container = document.querySelector('.temple-cards');
 const templeURL = 'https://shauniebyrne.github.io/wdd230/hotel/json/temple.json';
 
+let icons = {};
+
+if (window.localStorage.length === 0) {
+    icons = {
+    1: '&#9786;',
+    2: '&#9786;',
+    3: '&#9786;',
+    4: '&#9786;',
+    5: '&#9786;',
+    6: '&#9786;',
+    7: '&#9786;',
+    8: '&#9786;',
+    9: '&#9786;',
+    10: '&#9786;',
+    };
+
+    window.localStorage.setItem('icons', JSON.stringify(icons));
+}
+
 fetch(templeURL)
     .then(function (response) {
         return response.json();
     })
     .then(function (jsonObject) {
+        //console.log(jsonObject);
         const templecards = jsonObject['temples'];
 
-        templecards.forEach(displayCards);
-    })
-    .then(function (button) {
-        if (button.innerHTML === "&#9733;") {
-            const likeBtn = document.querySelector('.local-storage');
-            let likedStorage = window.localStorage.getItem('liked-temple');
-            // Store clicked button in localstorage
-            localStorage.setItem('liked-temple', likeBtn);
-        }
+        templecards.forEach((card, index) => {
+            displayCards(card, index);
+        });
     });
 
-function displayCards(card) {
+function displayCards(card, index) {
     // Create the necessary elements for the card
     let section = document.createElement('section');
     let h3 = document.createElement('h3');
@@ -36,15 +50,15 @@ function displayCards(card) {
 
     // Add textContent to temple card
     h3.textContent = card.name;
-    p1.textContent = card.address;
-    p2.textContent = card.telephone;
+    p1.textContent = `Address: ${card.address}`;
+    p2.textContent = `Phone Number: ${card.telephone}`;
     p3.textContent = `Email: ${card.email}`;
     p4.textContent = `Services: ${card.services}`;
-    p5.textContent = `History: ${card.history}`;
+    p5.textContent = `History - ${card.history}`;
     p6.textContent = `Ordinance Schedule: ${card.ordinanceschedule}`;
     p7.textContent = `Session Schedule: ${card.sessionschedule}`;
     p8.textContent = `Closure Schedule: ${card.closureschedule}`;
-    button.innerHTML = `&#9786;`
+    button.innerHTML = JSON.parse(window.localStorage.getItem('icons', [index + 1])) || '&#9786;';
 
     // Add content to temple image
     templeImg.setAttribute('src', card.img);
@@ -73,10 +87,22 @@ function displayCards(card) {
     container.appendChild(section);
 
     //Function to change button on click
-    function buttonChanged () {
-        button.innerHTML = "&#9733;";
-    }
+    function buttonChanged() {
+        if (button.innerHTML == '☺') {
+            button.innerHTML = '&#9733;';
+            let iconsModified = JSON.parse(window.localStorage.getItem('icons'));
+            iconsModified[index + 1] = '&#9733;';
+            window.localStorage.setItem('icons', JSON.stringify(iconsModified));
+        } else {
+            button.innerHTML = '&#9786;';
+            let iconsModified = JSON.parse(window.localStorage.getItem('icons'));
+            iconsModified[index + 1] = '&#9786;';
+            window.localStorage.setItem('icons', JSON.stringify(iconsModified));
+        };
+    };
 
     // Add Event Listener to button
-    button.addEventListener('click', buttonChanged);
+    button.addEventListener('click', buttonChanged);    
 }
+
+// Got help from Kevin for the localstorage parts but did everything else myself.

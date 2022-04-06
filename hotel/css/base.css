@@ -105,6 +105,17 @@ header div.hidden {
     display: none;
 }
 
+div#alerts {
+    width: 90%;
+    max-width: 100rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    color: #F7F0F0;
+    background-color: #6B0504;
+    text-align: center;
+}
+
 /* ----Main---- */
 h1, h2, h3 {
     font-family: 'Raleway', 'Tahoma', sans-serif;
@@ -125,6 +136,7 @@ h2 {
 
 h3 {
     font-size: 1.5em;
+    margin-bottom: 1rem;
 }
 
 p {

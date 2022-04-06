@@ -25,8 +25,8 @@ function displayTempleCard(tCard) {
 
         // Add content to elements
         name.textContent = tCard.name;
-        address.textContent = tCard.address;
-        telephone.textContent = tCard.telephone;
+        address.textContent = `Address: ${tCard.address}`;
+        telephone.textContent = `Phone Number: ${tCard.telephone}`;
         email.textContent = `Email: ${tCard.email}`;
         closures.textContent = `Temple Closures: ${tCard.closureschedule}`;
 
