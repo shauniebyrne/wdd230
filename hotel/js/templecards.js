@@ -58,7 +58,8 @@ function displayCards(card, index) {
     p6.textContent = `Ordinance Schedule: ${card.ordinanceschedule}`;
     p7.textContent = `Session Schedule: ${card.sessionschedule}`;
     p8.textContent = `Closure Schedule: ${card.closureschedule}`;
-    button.innerHTML = JSON.parse(window.localStorage.getItem('icons', [index + 1])) || '&#9786;';
+    //console.log(JSON.parse(window.localStorage.getItem('icons'))[index + 1])
+    button.innerHTML = JSON.parse(window.localStorage.getItem('icons'))[index + 1] || '&#9786;';
 
     // Add content to temple image
     templeImg.setAttribute('src', card.img);
