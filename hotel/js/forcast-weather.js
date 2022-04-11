@@ -1,4 +1,4 @@
-const forcastApi = "https://api.openweathermap.org/data/2.5/onecall?lat=33.4223&lon=-111.8226&exclude=current,minutely,hourly&units=imperial&appid=502854408fb5e148e3e7e1ca21917b63"
+const forcastApi = "https://api.openweathermap.org/data/2.5/onecall?lat=33.4223&lon=-111.8226&exclude=minutely,hourly&units=imperial&appid=502854408fb5e148e3e7e1ca21917b63"
 const alertSpot = document.getElementById('alerts');
 const forcast = document.querySelector('.forcast')
 
@@ -31,6 +31,24 @@ fetch(forcastApi)
 
             warningBtn.onclick = remove;
         }
+
+        //Current Weather Forcast
+        //Get info from weather API
+        let mesaTemp = jsonObject.current.temp;
+        let mesaHum = jsonObject.current.humidity;
+        
+        // Add weather results to weather card (DOM)
+        document.getElementById('temp').textContent = mesaTemp.toFixed();
+        document.getElementById('humidity').textContent = mesaHum;
+        
+        // Add image and weather conditions
+        let weatherImg = `https://openweathermap.org/img/wn/${jsonObject.current.weather[0].icon}@2x.png`;
+        let description = jsonObject.current.weather[0].description;
+        description = description.split(' ').map(capitalize).join(' ');
+                
+        document.getElementById('current-cond-img').setAttribute('src', weatherImg);
+        document.getElementById('current-cond-img').setAttribute('alt', description);
+        document.getElementById('current-conditions').textContent = description;
 
         // Three Day Weather Forcast
         // Pull info from weather API
@@ -117,4 +135,9 @@ fetch(forcastApi)
         forcast.appendChild(section1);
         forcast.appendChild(section2);
         forcast.appendChild(section3);
-    })
+    });
+
+function capitalize(word) {
+    return `${word.charAt(0).toUpperCase()}${word.slice(1)}`; 
+    // Got this code from Bro. Blazzard
+}
